@@ -1,0 +1,105 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='EQ_0')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='EQ_0')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "ExpectedDeliveryDate",
+			"FilterValueID": "EQ_0",
+			"FilterValueName": "Aujourd'hui"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='EQ_1')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='EQ_1')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "ExpectedDeliveryDate",
+			"FilterValueID": "EQ_1",
+			"FilterValueName": "Demain"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='EQ_-1')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='EQ_-1')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "ExpectedDeliveryDate",
+			"FilterValueID": "EQ_-1",
+			"FilterValueName": "Hier"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='BT_1_7')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='BT_1_7')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "ExpectedDeliveryDate",
+			"FilterValueID": "BT_1_7",
+			"FilterValueName": "Les 7 prochains jours après aujourd'hui"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='BT_-7_-1')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='BT_-7_-1')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "ExpectedDeliveryDate",
+			"FilterValueID": "BT_-7_-1",
+			"FilterValueName": "Les 7 derniers jours avant aujourd'hui"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='BT_-7_-1')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='ExpectedDeliveryDate',FilterValueID='BT_-7_-1')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "ExpectedDeliveryDate",
+			"FilterValueID": "BT_-9999999_-1",
+			"FilterValueName": "Les 9 999 999 derniers jours avant aujourd'hui"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='X')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='X')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "DocumentType",
+			"FilterValueID": "X",
+			"FilterValueName": "Unité de manutention"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='V')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='V')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "DocumentType",
+			"FilterValueID": "V",
+			"FilterValueName": "Commande d'achat"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='7')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='7')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "DocumentType",
+			"FilterValueID": "7",
+			"FilterValueName": "Livraison entrante"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='J')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/FilterValues(StoreID='0056',FilterID='DocumentType',FilterValueID='J')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"
+			},
+			"StoreID": "0056",
+			"FilterID": "DocumentType",
+			"FilterValueID": "J",
+			"FilterValueName": "Livraison sortante"
+		}]
+	}
+}

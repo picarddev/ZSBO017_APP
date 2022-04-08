@@ -1,0 +1,8 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:customControls="retail.store.receiveproduct.customControls"
+	xmlns="sap.m">
+	<!--
+			MESSAGE DANS LE CAS D'UN LOT BLOQUE SOUS LE LIB. DE L'ARTICLE
+	-->
+	<ObjectStatus id="receiveProductsObjectStatusBlockingReason" state="Warning" class="picardReceiveProductsObjectStatusBlockingReason"
+		text="{ parts: [ { path: 'BlockingReason' } ] }"/>
+</core:FragmentDefinition>

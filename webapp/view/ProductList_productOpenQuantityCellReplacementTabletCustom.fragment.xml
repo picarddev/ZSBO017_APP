@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:customControls="retail.store.receiveproduct.customControls"
+	xmlns="sap.m">
+	<!--
+			PRODUCT LIST CELL : REMPLACER LA QTE EN COURS (OPEN) PAR LA QUANTITE EN LITIGE
+	-->
+	<Text xmlns="sap.m" id="receiveProductsTextOpenQuantityTablet"
+		text="{ parts: [{path: 'ExpectedQuantity'}, {path: 'PostedQuantity'}, {path: 'ReceiveQuantity'}, {path: 'ReceiveQuantityUnitCode'}], 
+			formatter: 'retail.store.receiveproduct.utils.Formatter.formatOpenQuantityWithUnit' }">
+		<customData>
+			<core:CustomData key="openQuantityState"
+				value="{ parts: [{path: 'ExpectedQuantity'}, {path: 'PostedQuantity'}, {path: 'ReceiveQuantity'}], 
+					formatter: 'retail.store.receiveproduct.utils.Formatter.formatOpenQuantityState' }"
+				writeToDom="true"/>
+		</customData>
+	</Text>
+</core:FragmentDefinition>

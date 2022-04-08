@@ -1,0 +1,21 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:customControls="retail.store.receiveproduct.customControls"
+	xmlns="sap.m">
+	<!-- 
+			NOUVELLE COLONNE "VERS STOCK RESERVE" (Large layout)
+			
+			TFS 4975 : Cacher la colonne vers réserve si lme PDV n'a pas les autorisations
+	-->
+	<Column id="receiveProductsColumnStockRoomQuantityLarge" hAlign="Center" vAlign="Middle" width="8rem"
+		styleClass="sapRTSTRecvProdColumnProducts" visible="{= ${layoutStatus>/IsLargeLayout} &amp;&amp; ${layoutStatus>/StockRoomUseAllowed} }">
+		<Label id="receiveProductsLabelColumnStockRoomQuantityLarge" text="{i18n&gt;PRODUCTS_HEADER_STOCK_ROOM}"/>
+	</Column>
+	<!-- 
+			NOUVELLE COLONNE "VERS STOCK RESERVE" (small layout)
+			
+			TFS 4975 : Cacher la colonne vers réserve si lme PDV n'a pas les autorisations
+	-->
+	<Column id="receiveProductsColumnStockRoomQuantitySmall" hAlign="Right" vAlign="Middle" width="11rem"
+		visible="{= ${layoutStatus>/IsSmallLayout} &amp;&amp; ${layoutStatus>/StockRoomUseAllowed} }" styleClass="sapRTSTRecvProdColumnProducts">
+		<Label id="receiveProductsLabelColumnStockRoomQuantitySmall" text="{i18n&gt;PRODUCTS_HEADER_STOCK_ROOM}"/>
+	</Column>
+</core:FragmentDefinition>

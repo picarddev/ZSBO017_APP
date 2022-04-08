@@ -1,0 +1,32 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:ndc="sap.ndc">
+	<!-- The following controls were copied from the parent view -->
+	<OverflowToolbar xmlns="sap.m" id="receiveProductsBar">
+		<core:ExtensionPoint xmlns:core="sap.ui.core" name="footerBarContentLeftExtension"/>
+		<ToolbarSpacer/>
+		<Button id="receiveProductsButtonRemoveDocument" text="{i18n&gt;RESET_POST}" press="onResetDocumentButtonPress"
+			enabled="{ path: 'Document&gt;/ProcessingState', formatter: 'retail.store.receiveproduct.utils.Formatter.formatPostButtonEnabled'}"/>
+		<Button id="receiveProductsButtonPost" text="{i18n&gt;COMMON_POST}" type="Emphasized" press="onPostAllButtonPress"
+			enabled="{ path: 'Document&gt;/ProcessingState', formatter: 'retail.store.receiveproduct.utils.Formatter.formatPostButtonEnabled'}"/>
+		<!--
+   	        <Button id="receiveProductsButtonPostChanges" text="{i18n>PRODUCTS_POST_CHANGED}" press="onPostChangesButtonPress"
+   	            visible="{appMode>/detailedReceivingActive}"
+				enabled="{ path: 'Document>/ProcessingState',
+						   formatter: 'retail.store.receiveproduct.utils.Formatter.formatPostButtonEnabled'}" />
+   	        <Button id="receiveProductsButtonPostAll" text="{i18n>PRODUCTS_POST_ALL}" press="onPostAllButtonPress"
+   	            visible="{appMode>/detailedReceivingActive}"
+   	            enabled="{ path: 'Document>/ProcessingState',
+						   formatter: 'retail.store.receiveproduct.utils.Formatter.formatPostButtonEnabled'}" />
+   	        <Button id="receiveProductsButtonPostSelection" text="{i18n>PRODUCTS_POST_SELECTED}" press="onPostSelectionButtonPress"
+   	            visible="{appMode>/detailedReceivingActive}"
+   	            enabled="{ path: 'Document>/ProcessingState',
+						   formatter: 'retail.store.receiveproduct.utils.Formatter.formatPostButtonEnabled'}" />
+			-->
+		<ndc:BarcodeScannerButton xmlns:ndc="sap.ndc" id="receiveProductsButtonScan" visible="{device&gt;/isPhone}" scanSuccess="onScanSuccess"/>
+		<Button id="receiveProductsButtonAction" icon="sap-icon://action" press="onActionButtonPress">
+			<layoutData>
+				<OverflowToolbarLayoutData moveToOverflow="false"/>
+			</layoutData>
+		</Button>
+		<core:ExtensionPoint xmlns:core="sap.ui.core" name="footerBarContentRightExtension"/>
+	</OverflowToolbar>
+</core:FragmentDefinition>

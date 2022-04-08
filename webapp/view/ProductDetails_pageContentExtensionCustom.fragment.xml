@@ -1,0 +1,12 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	xmlns:customControls="retail.store.receiveproduct.customControls" xmlns="sap.m">
+	
+	<!--
+ 		TFS 5833 : Afficher les informations du balisage sur chacun des articles de la liste.
+	-->
+	
+	<VBox class="picardRTSTRecvProdTagColorVBoxContainer sapUiMediumMarginBegin sapUiMediumMarginEnd" width="auto">
+		<core:ComponentContainer id="tagColorComponentContainer" />
+	</VBox>
+	
+</core:FragmentDefinition>

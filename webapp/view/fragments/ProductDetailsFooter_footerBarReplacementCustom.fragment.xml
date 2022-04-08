@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:ndc="sap.ndc">
+	<!-- The following controls were copied from the parent view -->
+	<OverflowToolbar xmlns="sap.m" id="receiveProductsBar">
+		<core:ExtensionPoint xmlns:core="sap.ui.core" name="footerBarContentLeftExtension"/>
+		<!--
+				FOOTER DETAIL PAGE : CACHER LES BOUTONS ENREGISTRER ET ACTION
+		-->
+		<Button id="receiveProductsButtonNavBack" icon="sap-icon://nav-back" press="onNavBack"/>
+		<core:ExtensionPoint xmlns:core="sap.ui.core" name="footerBarContentRightExtension"/>
+	</OverflowToolbar>
+</core:FragmentDefinition>

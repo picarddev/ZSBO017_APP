@@ -1,0 +1,2100 @@
+{
+	"d": {
+		"__count": "6",
+		"results": [{
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=1)",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=1)",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem",
+				"etag": "W/\"'0.000_0.000_'\""
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentItemInternalID": 1,
+			"ProductID": "051248",
+			"ExpectedQuantity": "2",
+			"ExpectedQuantityUnitCode": "UVC",
+			"ExpectedQuantityUnitName": "UVC",
+			"ExpectedQuantityUnitIsoCode": "UVC",
+			"ExpectedQuantityUnitIsoName": "UVC",
+			"PostedQuantity": "0",
+			"PostedQuantityUnitCode": "UVC",
+			"PostedQuantityUnitName": "UVC",
+			"PostedQuantityUnitIsoCode": "UVC",
+			"PostedQuantityUnitIsoName": "UVC",
+			"OpenQuantity": "2",
+			"OpenQuantityUnitCode": "UVC",
+			"OpenQuantityUnitName": "UVC",
+			"OpenQuantityUnitIsoCode": "UVC",
+			"OpenQuantityUnitIsoName": "UVC",
+			"ReceiveQuantity": "2",
+			"ReceiveQuantityUnitCode": "UVC",
+			"ReceiveQuantityUnitName": "UVC",
+			"ReceiveQuantityUnitIsoCode": "UVC",
+			"ReceiveQuantityUnitIsoName": "UVC",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"IsFinallyDelivered": true,
+			"ReceivingIsFinished": false,
+			"AssignedDeliveryID": "87000995",
+			"AssignedDeliveryItemID": 10,
+			"AssignedPurchaseOrderID": "5100886105",
+			"AssignedPurchaseOrderItemID": 10,
+			"ReceiveQuantityBase": "2",
+			"ExpectedQuantityBase": "2",
+			"PostedQuantityBase": "0",
+			"OpenQuantityBase": "2",
+			"OrderQuantityBase": "2",
+			"QuantityBaseUnitCode": "UVC",
+			"ReceiveQuantityIsChanged": false,
+			"ReceiveQuantityPostingState": "0",
+			"ReceiveQuantityPostingMessage": "",
+			"ReceiveQuantityGTIN": "",
+			"OrderQuantity": "2",
+			"OrderQuantityUnitCode": "C01",
+			"OrderQuantityUnitNumerator": "1",
+			"OrderQuantityUnitDenominator": "1",
+			"DeliveryQuantityUnitCode": "C01",
+			"DeliveryQuantityUnitNumerator": "1",
+			"DeliveryQuantityUnitDenominator": "1",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"AssignedMaterialDocIDs": "",
+			"ChangeID": "0.000_0.000_",
+			"IsBlockedForReceiving": true,
+			"BlockingReason": "",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReturnQuantity": "0",
+			"ReturnQuantityBase": "0",
+			"ReturnQuantityIsChanged": false,
+			"ReturnQuantityPostingState": "",
+			"ReturnQuantityPostingMessage": "",
+			"BestBeforeDate": null,
+			"BestBeforeDatePostingState": "",
+			"BestBeforeDatePostingMessage": "",
+			"BatchNumber": "",
+			"BatchNumberPostingState": "",
+			"BatchNumberPostingMessage": "",
+			"ColdRoomQuantity": "0",
+			"ColdRoomQuantityUnitCode": "",
+			"Product": {
+				"__metadata": {
+					"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='051248')",
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='051248')",
+					"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Product",
+					"content_type": "image/png",
+					"media_src": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='051248')/$value"
+				},
+				"StoreID": "0056",
+				"ProductID": "051248",
+				"ProductName": "TARIF VIA SURGELES X80",
+				"MainGlobalTradeItemNumber": "",
+				"MerchandiseCategory": "87-1280",
+				"MerchandiseCategoryName": "ILV via le surgelé",
+				"ImageURL": "",
+				"ImageThumbURL": "",
+				"Color": "",
+				"Size1": "",
+				"Size2": "",
+				"BrandID": "Sans",
+				"BrandName": "",
+				"OldProductID": "",
+				"IsBlockedForReceiving": false,
+				"MimeType": "image/png",
+				"SalesStatusID": "P1",
+				"SalesStatusName": "Normal",
+				"IsOnPromotion": false,
+				"ProductSupplier": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='051248')/ProductSupplier"
+					}
+				},
+				"ProductQuantityUnit": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='UVC')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='UVC')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "051248",
+						"QuantityUnitCode": "UVC",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "UVC",
+						"QuantityUnitIsoCode": "UVC",
+						"QuantityUnitIsoName": "UVC",
+						"IsBaseUnit": true,
+						"IsSalesUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='PX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='PX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "051248",
+						"QuantityUnitCode": "PX1",
+						"LowerLevelQuantityUnitCode": "H07",
+						"Numerator": "112",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX1",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='H07')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='H07')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "051248",
+						"QuantityUnitCode": "H07",
+						"LowerLevelQuantityUnitCode": "C01",
+						"Numerator": "7",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 7",
+						"QuantityUnitIsoCode": "H07",
+						"QuantityUnitIsoName": "Couche de 7",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='C01')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='051248',QuantityUnitCode='C01')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "051248",
+						"QuantityUnitCode": "C01",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis de 1",
+						"QuantityUnitIsoCode": "C01",
+						"QuantityUnitIsoName": "Colis PCB 01",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}]
+				},
+				"ProductGlobalTradeItemNumber": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='051248',GlobalTradeItemNumber='216890')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='051248',GlobalTradeItemNumber='216890')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "051248",
+						"GlobalTradeItemNumber": "216890",
+						"QuantityUnitCode": "PX1",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='051248',GlobalTradeItemNumber='216883')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='051248',GlobalTradeItemNumber='216883')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "051248",
+						"GlobalTradeItemNumber": "216883",
+						"QuantityUnitCode": "C01",
+						"IsMainGTINForQuantityUnit": true
+					}]
+				},
+				"Thumbnail": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='051248')/Thumbnail"
+					}
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=2)",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=2)",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem",
+				"etag": "W/\"'0.000_0.000_'\""
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentItemInternalID": 2,
+			"ProductID": "001410",
+			"ExpectedQuantity": "60",
+			"ExpectedQuantityUnitCode": "UVC",
+			"ExpectedQuantityUnitName": "UVC",
+			"ExpectedQuantityUnitIsoCode": "UVC",
+			"ExpectedQuantityUnitIsoName": "UVC",
+			"PostedQuantity": "0",
+			"PostedQuantityUnitCode": "UVC",
+			"PostedQuantityUnitName": "UVC",
+			"PostedQuantityUnitIsoCode": "UVC",
+			"PostedQuantityUnitIsoName": "UVC",
+			"OpenQuantity": "60",
+			"OpenQuantityUnitCode": "UVC",
+			"OpenQuantityUnitName": "UVC",
+			"OpenQuantityUnitIsoCode": "UVC",
+			"OpenQuantityUnitIsoName": "UVC",
+			"ReceiveQuantity": "60",
+			"ReceiveQuantityUnitCode": "UVC",
+			"ReceiveQuantityUnitName": "UVC",
+			"ReceiveQuantityUnitIsoCode": "UVC",
+			"ReceiveQuantityUnitIsoName": "UVC",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"IsFinallyDelivered": true,
+			"ReceivingIsFinished": false,
+			"AssignedDeliveryID": "87000995",
+			"AssignedDeliveryItemID": 20,
+			"AssignedPurchaseOrderID": "5100886105",
+			"AssignedPurchaseOrderItemID": 20,
+			"ReceiveQuantityBase": "60",
+			"ExpectedQuantityBase": "60",
+			"PostedQuantityBase": "0",
+			"OpenQuantityBase": "60",
+			"OrderQuantityBase": "60",
+			"QuantityBaseUnitCode": "UVC",
+			"ReceiveQuantityIsChanged": false,
+			"ReceiveQuantityPostingState": "0",
+			"ReceiveQuantityPostingMessage": "",
+			"ReceiveQuantityGTIN": "3270160014101",
+			"OrderQuantity": "3",
+			"OrderQuantityUnitCode": "C20",
+			"OrderQuantityUnitNumerator": "20",
+			"OrderQuantityUnitDenominator": "1",
+			"DeliveryQuantityUnitCode": "C20",
+			"DeliveryQuantityUnitNumerator": "20",
+			"DeliveryQuantityUnitDenominator": "1",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"AssignedMaterialDocIDs": "",
+			"ChangeID": "0.000_0.000_",
+			"IsBlockedForReceiving": false,
+			"BlockingReason": "",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReturnQuantity": "0",
+			"ReturnQuantityBase": "0",
+			"ReturnQuantityIsChanged": false,
+			"ReturnQuantityPostingState": "",
+			"ReturnQuantityPostingMessage": "",
+			"BestBeforeDate": null,
+			"BestBeforeDatePostingState": "",
+			"BestBeforeDatePostingMessage": "",
+			"BatchNumber": "",
+			"BatchNumberPostingState": "",
+			"BatchNumberPostingMessage": "",
+			"ColdRoomQuantity": "0",
+			"ColdRoomQuantityUnitCode": "",
+			"Product": {
+				"__metadata": {
+					"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='001410')",
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='001410')",
+					"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Product",
+					"content_type": "image/png",
+					"media_src": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='001410')/$value"
+				},
+				"StoreID": "0056",
+				"ProductID": "001410",
+				"ProductName": "450G HARICOT EXTRA FINS",
+				"MainGlobalTradeItemNumber": "3270160014101",
+				"MerchandiseCategory": "1-10",
+				"MerchandiseCategoryName": "Les haricots",
+				"ImageURL": "",
+				"ImageThumbURL": "",
+				"Color": "",
+				"Size1": "",
+				"Size2": "",
+				"BrandID": "Pica",
+				"BrandName": "",
+				"OldProductID": "",
+				"IsBlockedForReceiving": false,
+				"MimeType": "image/png",
+				"SalesStatusID": "P1",
+				"SalesStatusName": "Normal",
+				"IsOnPromotion": false,
+				"ProductSupplier": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='001410')/ProductSupplier"
+					}
+				},
+				"ProductQuantityUnit": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='UVC')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='UVC')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "UVC",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "UVC",
+						"QuantityUnitIsoCode": "UVC",
+						"QuantityUnitIsoName": "UVC",
+						"IsBaseUnit": true,
+						"IsSalesUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='PX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='PX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "PX1",
+						"LowerLevelQuantityUnitCode": "HX1",
+						"Numerator": "1120",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX1",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='P56')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='P56')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "P56",
+						"LowerLevelQuantityUnitCode": "H08",
+						"Numerator": "1120",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette 56",
+						"QuantityUnitIsoCode": "P56",
+						"QuantityUnitIsoName": "Palette de 56 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='P54')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='P54')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "P54",
+						"LowerLevelQuantityUnitCode": "H09",
+						"Numerator": "1080",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette 54",
+						"QuantityUnitIsoCode": "P54",
+						"QuantityUnitIsoName": "Palette de 54 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='P45')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='P45')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "P45",
+						"LowerLevelQuantityUnitCode": "HX2",
+						"Numerator": "1080",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette 45",
+						"QuantityUnitIsoCode": "P45",
+						"QuantityUnitIsoName": "Palette de 45 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='KG')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='KG')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "KG",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "111",
+						"Denominator": "50",
+						"QuantityUnitName": "kg",
+						"QuantityUnitIsoCode": "KGM",
+						"QuantityUnitIsoName": "Kilogramme",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='HX2')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='HX2')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "HX2",
+						"LowerLevelQuantityUnitCode": "C24",
+						"Numerator": "216",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX2",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='HX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='HX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "HX1",
+						"LowerLevelQuantityUnitCode": "C20",
+						"Numerator": "160",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX1",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='H09')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='H09')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "H09",
+						"LowerLevelQuantityUnitCode": "C20",
+						"Numerator": "180",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 9",
+						"QuantityUnitIsoCode": "H09",
+						"QuantityUnitIsoName": "Couche de 9",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='H08')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='H08')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "H08",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "160",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 8",
+						"QuantityUnitIsoCode": "H08",
+						"QuantityUnitIsoName": "Couche de 8",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='CX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='CX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "CX1",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "20",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis",
+						"QuantityUnitIsoCode": "CX1",
+						"QuantityUnitIsoName": "Colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='C24')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='C24')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "C24",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "24",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis 24",
+						"QuantityUnitIsoCode": "C24",
+						"QuantityUnitIsoName": "Colis PCB 24",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='C20')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='001410',QuantityUnitCode='C20')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"QuantityUnitCode": "C20",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "20",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis 20",
+						"QuantityUnitIsoCode": "C20",
+						"QuantityUnitIsoName": "Colis PCB 20",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}]
+				},
+				"ProductGlobalTradeItemNumber": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270162049194')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270162049194')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "3270162049194",
+						"QuantityUnitCode": "P54",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270162000256')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270162000256')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "3270162000256",
+						"QuantityUnitCode": "PX1",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270161000257')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270161000257')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "3270161000257",
+						"QuantityUnitCode": "C20",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270160014101')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='3270160014101')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "3270160014101",
+						"QuantityUnitCode": "UVC",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132381')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132381')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "132381",
+						"QuantityUnitCode": "P45",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132374')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132374')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "132374",
+						"QuantityUnitCode": "C24",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132350')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132350')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "132350",
+						"QuantityUnitCode": "P56",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132343')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='001410',GlobalTradeItemNumber='132343')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "001410",
+						"GlobalTradeItemNumber": "132343",
+						"QuantityUnitCode": "CX1",
+						"IsMainGTINForQuantityUnit": true
+					}]
+				},
+				"Thumbnail": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='001410')/Thumbnail"
+					}
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=3)",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=3)",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem",
+				"etag": "W/\"'0.000_0.000_'\""
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentItemInternalID": 3,
+			"ProductID": "014187",
+			"ExpectedQuantity": "10",
+			"ExpectedQuantityUnitCode": "UVC",
+			"ExpectedQuantityUnitName": "UVC",
+			"ExpectedQuantityUnitIsoCode": "UVC",
+			"ExpectedQuantityUnitIsoName": "UVC",
+			"PostedQuantity": "0",
+			"PostedQuantityUnitCode": "UVC",
+			"PostedQuantityUnitName": "UVC",
+			"PostedQuantityUnitIsoCode": "UVC",
+			"PostedQuantityUnitIsoName": "UVC",
+			"OpenQuantity": "10",
+			"OpenQuantityUnitCode": "UVC",
+			"OpenQuantityUnitName": "UVC",
+			"OpenQuantityUnitIsoCode": "UVC",
+			"OpenQuantityUnitIsoName": "UVC",
+			"ReceiveQuantity": "10",
+			"ReceiveQuantityUnitCode": "UVC",
+			"ReceiveQuantityUnitName": "UVC",
+			"ReceiveQuantityUnitIsoCode": "UVC",
+			"ReceiveQuantityUnitIsoName": "UVC",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"IsFinallyDelivered": true,
+			"ReceivingIsFinished": false,
+			"AssignedDeliveryID": "87000995",
+			"AssignedDeliveryItemID": 30,
+			"AssignedPurchaseOrderID": "5100886105",
+			"AssignedPurchaseOrderItemID": 30,
+			"ReceiveQuantityBase": "10",
+			"ExpectedQuantityBase": "10",
+			"PostedQuantityBase": "0",
+			"OpenQuantityBase": "10",
+			"OrderQuantityBase": "10",
+			"QuantityBaseUnitCode": "UVC",
+			"ReceiveQuantityIsChanged": false,
+			"ReceiveQuantityPostingState": "0",
+			"ReceiveQuantityPostingMessage": "",
+			"ReceiveQuantityGTIN": "3270160141876",
+			"OrderQuantity": "1",
+			"OrderQuantityUnitCode": "C10",
+			"OrderQuantityUnitNumerator": "10",
+			"OrderQuantityUnitDenominator": "1",
+			"DeliveryQuantityUnitCode": "C10",
+			"DeliveryQuantityUnitNumerator": "10",
+			"DeliveryQuantityUnitDenominator": "1",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"AssignedMaterialDocIDs": "",
+			"ChangeID": "0.000_0.000_",
+			"IsBlockedForReceiving": false,
+			"BlockingReason": "",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReturnQuantity": "0",
+			"ReturnQuantityBase": "0",
+			"ReturnQuantityIsChanged": false,
+			"ReturnQuantityPostingState": "",
+			"ReturnQuantityPostingMessage": "",
+			"BestBeforeDate": null,
+			"BestBeforeDatePostingState": "",
+			"BestBeforeDatePostingMessage": "",
+			"BatchNumber": "",
+			"BatchNumberPostingState": "",
+			"BatchNumberPostingMessage": "",
+			"ColdRoomQuantity": "0",
+			"ColdRoomQuantityUnitCode": "",
+			"Product": {
+				"__metadata": {
+					"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014187')",
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014187')",
+					"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Product",
+					"content_type": "image/png",
+					"media_src": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014187')/$value"
+				},
+				"StoreID": "0056",
+				"ProductID": "014187",
+				"ProductName": "CARPACCIO 190grs",
+				"MainGlobalTradeItemNumber": "3270160141876",
+				"MerchandiseCategory": "14-235",
+				"MerchandiseCategoryName": "Origine France",
+				"ImageURL": "",
+				"ImageThumbURL": "",
+				"Color": "",
+				"Size1": "",
+				"Size2": "",
+				"BrandID": "Pica",
+				"BrandName": "",
+				"OldProductID": "",
+				"IsBlockedForReceiving": false,
+				"MimeType": "image/png",
+				"SalesStatusID": "P1",
+				"SalesStatusName": "Normal",
+				"IsOnPromotion": false,
+				"ProductSupplier": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014187')/ProductSupplier"
+					}
+				},
+				"ProductQuantityUnit": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='UVC')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='UVC')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "UVC",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "UVC",
+						"QuantityUnitIsoCode": "UVC",
+						"QuantityUnitIsoName": "UVC",
+						"IsBaseUnit": true,
+						"IsSalesUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='PX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='PX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "PX1",
+						"LowerLevelQuantityUnitCode": "H10",
+						"Numerator": "800",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX1",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='P80')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='P80')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "P80",
+						"LowerLevelQuantityUnitCode": "H08",
+						"Numerator": "800",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette 80",
+						"QuantityUnitIsoCode": "P80",
+						"QuantityUnitIsoName": "Palette de 80 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='KG')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='KG')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "KG",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "5263",
+						"Denominator": "1000",
+						"QuantityUnitName": "kg",
+						"QuantityUnitIsoCode": "KGM",
+						"QuantityUnitIsoName": "Kilogramme",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='H10')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='H10')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "H10",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "100",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 10",
+						"QuantityUnitIsoCode": "H10",
+						"QuantityUnitIsoName": "Couche de 10",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='H08')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='H08')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "H08",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "80",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 8",
+						"QuantityUnitIsoCode": "H08",
+						"QuantityUnitIsoName": "Couche de 8",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='C10')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014187',QuantityUnitCode='C10')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"QuantityUnitCode": "C10",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "10",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis 10",
+						"QuantityUnitIsoCode": "C10",
+						"QuantityUnitIsoName": "Colis PCB 10",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}]
+				},
+				"ProductGlobalTradeItemNumber": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270162067402')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270162067402')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "3270162067402",
+						"QuantityUnitCode": "PX1",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270162015694')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270162015694')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "3270162015694",
+						"QuantityUnitCode": "P80",
+						"IsMainGTINForQuantityUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270161076290')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270161076290')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "3270161076290",
+						"QuantityUnitCode": "C10",
+						"IsMainGTINForQuantityUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270161015183')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270161015183')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "3270161015183",
+						"QuantityUnitCode": "C10",
+						"IsMainGTINForQuantityUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270160141876')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='3270160141876')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "3270160141876",
+						"QuantityUnitCode": "UVC",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='156110')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='156110')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "156110",
+						"QuantityUnitCode": "P80",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='156103')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014187',GlobalTradeItemNumber='156103')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014187",
+						"GlobalTradeItemNumber": "156103",
+						"QuantityUnitCode": "C10",
+						"IsMainGTINForQuantityUnit": true
+					}]
+				},
+				"Thumbnail": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014187')/Thumbnail"
+					}
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=4)",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=4)",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem",
+				"etag": "W/\"'0.000_0.000_'\""
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentItemInternalID": 4,
+			"ProductID": "014898",
+			"ExpectedQuantity": "12",
+			"ExpectedQuantityUnitCode": "UVC",
+			"ExpectedQuantityUnitName": "UVC",
+			"ExpectedQuantityUnitIsoCode": "UVC",
+			"ExpectedQuantityUnitIsoName": "UVC",
+			"PostedQuantity": "0",
+			"PostedQuantityUnitCode": "UVC",
+			"PostedQuantityUnitName": "UVC",
+			"PostedQuantityUnitIsoCode": "UVC",
+			"PostedQuantityUnitIsoName": "UVC",
+			"OpenQuantity": "12",
+			"OpenQuantityUnitCode": "UVC",
+			"OpenQuantityUnitName": "UVC",
+			"OpenQuantityUnitIsoCode": "UVC",
+			"OpenQuantityUnitIsoName": "UVC",
+			"ReceiveQuantity": "12",
+			"ReceiveQuantityUnitCode": "UVC",
+			"ReceiveQuantityUnitName": "UVC",
+			"ReceiveQuantityUnitIsoCode": "UVC",
+			"ReceiveQuantityUnitIsoName": "UVC",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"IsFinallyDelivered": true,
+			"ReceivingIsFinished": false,
+			"AssignedDeliveryID": "87000995",
+			"AssignedDeliveryItemID": 40,
+			"AssignedPurchaseOrderID": "5100886105",
+			"AssignedPurchaseOrderItemID": 40,
+			"ReceiveQuantityBase": "12",
+			"ExpectedQuantityBase": "12",
+			"PostedQuantityBase": "0",
+			"OpenQuantityBase": "12",
+			"OrderQuantityBase": "12",
+			"QuantityBaseUnitCode": "UVC",
+			"ReceiveQuantityIsChanged": false,
+			"ReceiveQuantityPostingState": "0",
+			"ReceiveQuantityPostingMessage": "",
+			"ReceiveQuantityGTIN": "3270160148981",
+			"OrderQuantity": "2",
+			"OrderQuantityUnitCode": "C06",
+			"OrderQuantityUnitNumerator": "6",
+			"OrderQuantityUnitDenominator": "1",
+			"DeliveryQuantityUnitCode": "C06",
+			"DeliveryQuantityUnitNumerator": "6",
+			"DeliveryQuantityUnitDenominator": "1",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"AssignedMaterialDocIDs": "",
+			"ChangeID": "0.000_0.000_",
+			"IsBlockedForReceiving": false,
+			"BlockingReason": "",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReturnQuantity": "0",
+			"ReturnQuantityBase": "0",
+			"ReturnQuantityIsChanged": false,
+			"ReturnQuantityPostingState": "",
+			"ReturnQuantityPostingMessage": "",
+			"BestBeforeDate": null,
+			"BestBeforeDatePostingState": "",
+			"BestBeforeDatePostingMessage": "",
+			"BatchNumber": "",
+			"BatchNumberPostingState": "",
+			"BatchNumberPostingMessage": "",
+			"ColdRoomQuantity": "0",
+			"ColdRoomQuantityUnitCode": "",
+			"Product": {
+				"__metadata": {
+					"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014898')",
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014898')",
+					"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Product",
+					"content_type": "image/png",
+					"media_src": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014898')/$value"
+				},
+				"StoreID": "0056",
+				"ProductID": "014898",
+				"ProductName": "4 ENTRECOTES PIC 700Grs",
+				"MainGlobalTradeItemNumber": "3270160148981",
+				"MerchandiseCategory": "14-235",
+				"MerchandiseCategoryName": "Origine France",
+				"ImageURL": "",
+				"ImageThumbURL": "",
+				"Color": "",
+				"Size1": "",
+				"Size2": "",
+				"BrandID": "Pica",
+				"BrandName": "",
+				"OldProductID": "",
+				"IsBlockedForReceiving": false,
+				"MimeType": "image/png",
+				"SalesStatusID": "P1",
+				"SalesStatusName": "Normal",
+				"IsOnPromotion": false,
+				"ProductSupplier": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014898')/ProductSupplier"
+					}
+				},
+				"ProductQuantityUnit": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='UVC')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='UVC')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "UVC",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "UVC",
+						"QuantityUnitIsoCode": "UVC",
+						"QuantityUnitIsoName": "UVC",
+						"IsBaseUnit": true,
+						"IsSalesUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='P66')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='P66')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "P66",
+						"LowerLevelQuantityUnitCode": "H11",
+						"Numerator": "396",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette 66",
+						"QuantityUnitIsoCode": "P66",
+						"QuantityUnitIsoName": "Palette de 66 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='P48')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='P48')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "P48",
+						"LowerLevelQuantityUnitCode": "H06",
+						"Numerator": "480",
+						"Denominator": "1",
+						"QuantityUnitName": "Palette 48",
+						"QuantityUnitIsoCode": "P48",
+						"QuantityUnitIsoName": "Palette de 48 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='KG')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='KG')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "KG",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1429",
+						"Denominator": "1000",
+						"QuantityUnitName": "kg",
+						"QuantityUnitIsoCode": "KGM",
+						"QuantityUnitIsoName": "Kilogramme",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='H11')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='H11')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "H11",
+						"LowerLevelQuantityUnitCode": "C06",
+						"Numerator": "66",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 11",
+						"QuantityUnitIsoCode": "H11",
+						"QuantityUnitIsoName": "Couche de 11",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='H06')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='H06')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "H06",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "60",
+						"Denominator": "1",
+						"QuantityUnitName": "Couche 6",
+						"QuantityUnitIsoCode": "H06",
+						"QuantityUnitIsoName": "Couche de 6",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='C10')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='C10')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "C10",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "10",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis 10",
+						"QuantityUnitIsoCode": "C10",
+						"QuantityUnitIsoName": "Colis PCB 10",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='C06')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='014898',QuantityUnitCode='C06')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"QuantityUnitCode": "C06",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "6",
+						"Denominator": "1",
+						"QuantityUnitName": "Colis de 6",
+						"QuantityUnitIsoCode": "C06",
+						"QuantityUnitIsoName": "Colis PCB 06",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}]
+				},
+				"ProductGlobalTradeItemNumber": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='3270162015168')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='3270162015168')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"GlobalTradeItemNumber": "3270162015168",
+						"QuantityUnitCode": "P66",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='3270161014636')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='3270161014636')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"GlobalTradeItemNumber": "3270161014636",
+						"QuantityUnitCode": "C06",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='3270160148981')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='3270160148981')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"GlobalTradeItemNumber": "3270160148981",
+						"QuantityUnitCode": "UVC",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='158299')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='158299')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"GlobalTradeItemNumber": "158299",
+						"QuantityUnitCode": "P48",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='158282')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='014898',GlobalTradeItemNumber='158282')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "014898",
+						"GlobalTradeItemNumber": "158282",
+						"QuantityUnitCode": "C10",
+						"IsMainGTINForQuantityUnit": true
+					}]
+				},
+				"Thumbnail": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='014898')/Thumbnail"
+					}
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=5)",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=5)",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem",
+				"etag": "W/\"'0.000_0.000_'\""
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentItemInternalID": 5,
+			"ProductID": "015566",
+			"ExpectedQuantity": "4.440",
+			"ExpectedQuantityUnitCode": "KG",
+			"ExpectedQuantityUnitName": "kg",
+			"ExpectedQuantityUnitIsoCode": "KGM",
+			"ExpectedQuantityUnitIsoName": "Kilogramme",
+			"PostedQuantity": "0.000",
+			"PostedQuantityUnitCode": "KG",
+			"PostedQuantityUnitName": "kg",
+			"PostedQuantityUnitIsoCode": "KGM",
+			"PostedQuantityUnitIsoName": "Kilogramme",
+			"OpenQuantity": "4.440",
+			"OpenQuantityUnitCode": "KG",
+			"OpenQuantityUnitName": "kg",
+			"OpenQuantityUnitIsoCode": "KGM",
+			"OpenQuantityUnitIsoName": "Kilogramme",
+			"ReceiveQuantity": "4.440",
+			"ReceiveQuantityUnitCode": "KG",
+			"ReceiveQuantityUnitName": "kg",
+			"ReceiveQuantityUnitIsoCode": "KGM",
+			"ReceiveQuantityUnitIsoName": "Kilogramme",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"IsFinallyDelivered": true,
+			"ReceivingIsFinished": false,
+			"AssignedDeliveryID": "87000995",
+			"AssignedDeliveryItemID": 50,
+			"AssignedPurchaseOrderID": "5100886105",
+			"AssignedPurchaseOrderItemID": 50,
+			"ReceiveQuantityBase": "4.440",
+			"ExpectedQuantityBase": "4.440",
+			"PostedQuantityBase": "0.000",
+			"OpenQuantityBase": "4.440",
+			"OrderQuantityBase": "8.880",
+			"QuantityBaseUnitCode": "KG",
+			"ReceiveQuantityIsChanged": false,
+			"ReceiveQuantityPostingState": "0",
+			"ReceiveQuantityPostingMessage": "",
+			"ReceiveQuantityGTIN": "",
+			"OrderQuantity": "2",
+			"OrderQuantityUnitCode": "C10",
+			"OrderQuantityUnitNumerator": "1110",
+			"OrderQuantityUnitDenominator": "250",
+			"DeliveryQuantityUnitCode": "KG",
+			"DeliveryQuantityUnitNumerator": "1",
+			"DeliveryQuantityUnitDenominator": "1",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"AssignedMaterialDocIDs": "",
+			"ChangeID": "0.000_0.000_",
+			"IsBlockedForReceiving": false,
+			"BlockingReason": "",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReturnQuantity": "0.000",
+			"ReturnQuantityBase": "0.000",
+			"ReturnQuantityIsChanged": false,
+			"ReturnQuantityPostingState": "",
+			"ReturnQuantityPostingMessage": "",
+			"BestBeforeDate": null,
+			"BestBeforeDatePostingState": "",
+			"BestBeforeDatePostingMessage": "",
+			"BatchNumber": "",
+			"BatchNumberPostingState": "",
+			"BatchNumberPostingMessage": "",
+			"ColdRoomQuantity": "0.000",
+			"ColdRoomQuantityUnitCode": "",
+			"Product": {
+				"__metadata": {
+					"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')",
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')",
+					"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Product",
+					"content_type": "image/png",
+					"media_src": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')/$value"
+				},
+				"StoreID": "0056",
+				"ProductID": "015566",
+				"ProductName": "1 FILET MIGNON PORC",
+				"MainGlobalTradeItemNumber": "",
+				"MerchandiseCategory": "18-295",
+				"MerchandiseCategoryName": "La viande de porc",
+				"ImageURL": "",
+				"ImageThumbURL": "",
+				"Color": "",
+				"Size1": "",
+				"Size2": "",
+				"BrandID": "Pica",
+				"BrandName": "",
+				"OldProductID": "",
+				"IsBlockedForReceiving": false,
+				"MimeType": "image/png",
+				"SalesStatusID": "P1",
+				"SalesStatusName": "Normal",
+				"IsOnPromotion": false,
+				"ProductSupplier": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')/ProductSupplier"
+					}
+				},
+				"ProductQuantityUnit": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='UVC')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='UVC')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "UVC",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "111",
+						"Denominator": "250",
+						"QuantityUnitName": "UVC",
+						"QuantityUnitIsoCode": "UVC",
+						"QuantityUnitIsoName": "UVC",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX5')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX5')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX5",
+						"LowerLevelQuantityUnitCode": "HX5",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": " Palette",
+						"QuantityUnitIsoCode": "PX5",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX4')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX4')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX4",
+						"LowerLevelQuantityUnitCode": "HX4",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": " Palette",
+						"QuantityUnitIsoCode": "PX4",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX3')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX3')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX3",
+						"LowerLevelQuantityUnitCode": "HX3",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": " Palette",
+						"QuantityUnitIsoCode": "PX3",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX2')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX2')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX2",
+						"LowerLevelQuantityUnitCode": "HX2",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX2",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX1",
+						"LowerLevelQuantityUnitCode": "HX1",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX1",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='P08')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='P08')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "P08",
+						"LowerLevelQuantityUnitCode": "H04",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": "Palette 8",
+						"QuantityUnitIsoCode": "P08",
+						"QuantityUnitIsoName": "Palette de 8 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='KG')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='KG')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "KG",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "kg",
+						"QuantityUnitIsoCode": "KGM",
+						"QuantityUnitIsoName": "Kilogramme",
+						"IsBaseUnit": true,
+						"IsSalesUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX5')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX5')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX5",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX5",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX4')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX4')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX4",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX4",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX3')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX3')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX3",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX3",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX2')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX2')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX2",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX2",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX1",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX1",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='H04')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='H04')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "H04",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche 4",
+						"QuantityUnitIsoCode": "H04",
+						"QuantityUnitIsoName": "Couche de 4",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='CX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='CX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "CX1",
+						"LowerLevelQuantityUnitCode": "UVC",
+						"Numerator": "1110",
+						"Denominator": "250",
+						"QuantityUnitName": "Colis",
+						"QuantityUnitIsoCode": "CX1",
+						"QuantityUnitIsoName": "Colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='C10')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='C10')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "C10",
+						"LowerLevelQuantityUnitCode": "UVC",
+						"Numerator": "1110",
+						"Denominator": "250",
+						"QuantityUnitName": "Colis 10",
+						"QuantityUnitIsoCode": "C10",
+						"QuantityUnitIsoName": "Colis PCB 10",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}]
+				},
+				"ProductGlobalTradeItemNumber": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='3270161014025')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='3270161014025')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"GlobalTradeItemNumber": "3270161014025",
+						"QuantityUnitCode": "C10",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='201556000005')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='201556000005')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"GlobalTradeItemNumber": "201556000005",
+						"QuantityUnitCode": "UVC",
+						"IsMainGTINForQuantityUnit": true
+					}]
+				},
+				"Thumbnail": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')/Thumbnail"
+					}
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=6)",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/DocumentItems(StoreID='0056',DocumentInternalID='X0007966143',DocumentItemInternalID=6)",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem",
+				"etag": "W/\"'0.000_0.000_'\""
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentItemInternalID": 6,
+			"ProductID": "015566",
+			"ExpectedQuantity": "4.440",
+			"ExpectedQuantityUnitCode": "KG",
+			"ExpectedQuantityUnitName": "kg",
+			"ExpectedQuantityUnitIsoCode": "KGM",
+			"ExpectedQuantityUnitIsoName": "Kilogramme",
+			"PostedQuantity": "0.000",
+			"PostedQuantityUnitCode": "KG",
+			"PostedQuantityUnitName": "kg",
+			"PostedQuantityUnitIsoCode": "KGM",
+			"PostedQuantityUnitIsoName": "Kilogramme",
+			"OpenQuantity": "4.440",
+			"OpenQuantityUnitCode": "KG",
+			"OpenQuantityUnitName": "kg",
+			"OpenQuantityUnitIsoCode": "KGM",
+			"OpenQuantityUnitIsoName": "Kilogramme",
+			"ReceiveQuantity": "4.440",
+			"ReceiveQuantityUnitCode": "KG",
+			"ReceiveQuantityUnitName": "kg",
+			"ReceiveQuantityUnitIsoCode": "KGM",
+			"ReceiveQuantityUnitIsoName": "Kilogramme",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"IsFinallyDelivered": true,
+			"ReceivingIsFinished": false,
+			"AssignedDeliveryID": "87000995",
+			"AssignedDeliveryItemID": 60,
+			"AssignedPurchaseOrderID": "5100886105",
+			"AssignedPurchaseOrderItemID": 50,
+			"ReceiveQuantityBase": "4.440",
+			"ExpectedQuantityBase": "4.440",
+			"PostedQuantityBase": "0.000",
+			"OpenQuantityBase": "4.440",
+			"OrderQuantityBase": "8.880",
+			"QuantityBaseUnitCode": "KG",
+			"ReceiveQuantityIsChanged": false,
+			"ReceiveQuantityPostingState": "0",
+			"ReceiveQuantityPostingMessage": "",
+			"ReceiveQuantityGTIN": "",
+			"OrderQuantity": "2",
+			"OrderQuantityUnitCode": "C10",
+			"OrderQuantityUnitNumerator": "1110",
+			"OrderQuantityUnitDenominator": "250",
+			"DeliveryQuantityUnitCode": "KG",
+			"DeliveryQuantityUnitNumerator": "1",
+			"DeliveryQuantityUnitDenominator": "1",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"AssignedMaterialDocIDs": "",
+			"ChangeID": "0.000_0.000_",
+			"IsBlockedForReceiving": false,
+			"BlockingReason": "",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReturnQuantity": "0.000",
+			"ReturnQuantityBase": "0.000",
+			"ReturnQuantityIsChanged": false,
+			"ReturnQuantityPostingState": "",
+			"ReturnQuantityPostingMessage": "",
+			"BestBeforeDate": null,
+			"BestBeforeDatePostingState": "",
+			"BestBeforeDatePostingMessage": "",
+			"BatchNumber": "",
+			"BatchNumberPostingState": "",
+			"BatchNumberPostingMessage": "",
+			"ColdRoomQuantity": "0.000",
+			"ColdRoomQuantityUnitCode": "",
+			"Product": {
+				"__metadata": {
+					"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')",
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')",
+					"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Product",
+					"content_type": "image/png",
+					"media_src": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')/$value"
+				},
+				"StoreID": "0056",
+				"ProductID": "015566",
+				"ProductName": "1 FILET MIGNON PORC",
+				"MainGlobalTradeItemNumber": "",
+				"MerchandiseCategory": "18-295",
+				"MerchandiseCategoryName": "La viande de porc",
+				"ImageURL": "",
+				"ImageThumbURL": "",
+				"Color": "",
+				"Size1": "",
+				"Size2": "",
+				"BrandID": "Pica",
+				"BrandName": "",
+				"OldProductID": "",
+				"IsBlockedForReceiving": false,
+				"MimeType": "image/png",
+				"SalesStatusID": "P1",
+				"SalesStatusName": "Normal",
+				"IsOnPromotion": false,
+				"ProductSupplier": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')/ProductSupplier"
+					}
+				},
+				"ProductQuantityUnit": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='UVC')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='UVC')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "UVC",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "111",
+						"Denominator": "250",
+						"QuantityUnitName": "UVC",
+						"QuantityUnitIsoCode": "UVC",
+						"QuantityUnitIsoName": "UVC",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX5')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX5')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX5",
+						"LowerLevelQuantityUnitCode": "HX5",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": " Palette",
+						"QuantityUnitIsoCode": "PX5",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX4')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX4')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX4",
+						"LowerLevelQuantityUnitCode": "HX4",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": " Palette",
+						"QuantityUnitIsoCode": "PX4",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX3')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX3')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX3",
+						"LowerLevelQuantityUnitCode": "HX3",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": " Palette",
+						"QuantityUnitIsoCode": "PX3",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX2')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX2')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX2",
+						"LowerLevelQuantityUnitCode": "HX2",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX2",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='PX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "PX1",
+						"LowerLevelQuantityUnitCode": "HX1",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": "Palette",
+						"QuantityUnitIsoCode": "PX1",
+						"QuantityUnitIsoName": "Palette",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='P08')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='P08')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "P08",
+						"LowerLevelQuantityUnitCode": "H04",
+						"Numerator": "8880",
+						"Denominator": "250",
+						"QuantityUnitName": "Palette 8",
+						"QuantityUnitIsoCode": "P08",
+						"QuantityUnitIsoName": "Palette de 8 colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='KG')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='KG')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "KG",
+						"LowerLevelQuantityUnitCode": "",
+						"Numerator": "1",
+						"Denominator": "1",
+						"QuantityUnitName": "kg",
+						"QuantityUnitIsoCode": "KGM",
+						"QuantityUnitIsoName": "Kilogramme",
+						"IsBaseUnit": true,
+						"IsSalesUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX5')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX5')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX5",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX5",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX4')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX4')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX4",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX4",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX3')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX3')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX3",
+						"LowerLevelQuantityUnitCode": "CX1",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX3",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX2')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX2')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX2",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX2",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='HX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "HX1",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche",
+						"QuantityUnitIsoCode": "HX1",
+						"QuantityUnitIsoName": "Couche",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='H04')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='H04')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "H04",
+						"LowerLevelQuantityUnitCode": "C10",
+						"Numerator": "4440",
+						"Denominator": "250",
+						"QuantityUnitName": "Couche 4",
+						"QuantityUnitIsoCode": "H04",
+						"QuantityUnitIsoName": "Couche de 4",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='CX1')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='CX1')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "CX1",
+						"LowerLevelQuantityUnitCode": "UVC",
+						"Numerator": "1110",
+						"Denominator": "250",
+						"QuantityUnitName": "Colis",
+						"QuantityUnitIsoCode": "CX1",
+						"QuantityUnitIsoName": "Colis",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='C10')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductQuantityUnits(StoreID='0056',ProductID='015566',QuantityUnitCode='C10')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"QuantityUnitCode": "C10",
+						"LowerLevelQuantityUnitCode": "UVC",
+						"Numerator": "1110",
+						"Denominator": "250",
+						"QuantityUnitName": "Colis 10",
+						"QuantityUnitIsoCode": "C10",
+						"QuantityUnitIsoName": "Colis PCB 10",
+						"IsBaseUnit": false,
+						"IsSalesUnit": false
+					}]
+				},
+				"ProductGlobalTradeItemNumber": {
+					"results": [{
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='3270161014025')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='3270161014025')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"GlobalTradeItemNumber": "3270161014025",
+						"QuantityUnitCode": "C10",
+						"IsMainGTINForQuantityUnit": true
+					}, {
+						"__metadata": {
+							"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='201556000005')",
+							"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/ProductGlobalTradeItemNumbers(StoreID='0056',ProductID='015566',GlobalTradeItemNumber='201556000005')",
+							"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+						},
+						"StoreID": "0056",
+						"ProductID": "015566",
+						"GlobalTradeItemNumber": "201556000005",
+						"QuantityUnitCode": "UVC",
+						"IsMainGTINForQuantityUnit": true
+					}]
+				},
+				"Thumbnail": {
+					"__deferred": {
+						"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Products(StoreID='0056',ProductID='015566')/Thumbnail"
+					}
+				}
+			}
+		}]
+	}
+}

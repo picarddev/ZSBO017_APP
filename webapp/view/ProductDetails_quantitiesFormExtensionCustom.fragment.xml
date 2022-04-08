@@ -1,0 +1,150 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	xmlns:customControls="retail.store.receiveproduct.customControls" xmlns="sap.m">
+	<!-- 
+			EXTENSION DE LA VUE DETAIL, PAVE DES QUANTITES 
+	-->
+	<!-- 
+			QUANTITE EN LITIGE
+	-->
+	<Label id="picardReceiveProductsLabelOpenQuantity" text="{i18n>PRODUCTS_HEADER_OPEN_QUANTITY}"/>
+	<HBox id="picardReceiveProductsHBoxOpenQuantity">
+		<Text id="picardReceiveProductsTextOpenQuantity"
+			text="{ parts: [{path: 'DocumentItem>/ExpectedQuantity'}, 
+							{path: 'DocumentItem>/PostedQuantity'},
+							{path: 'DocumentItem>/ReceiveQuantity'}], 
+							formatter: 'retail.store.receiveproduct.utils.Formatter.formatOpenQuantity' }"
+			width="3.5rem" textAlign="End" class="sapUiTinyMarginEnd"/>
+		<Text id="picardReceiveProductsTextOpenQuantityUnit" text="{DocumentItem>/OpenQuantityUnitCode}"/>
+	</HBox>
+	<!-- 
+			LISTE DES MOTIFS DE REFUS
+	-->
+	<!--Sprint 5 - US 3108 Exclure ZIFR - MPO 12/05/2021-->
+	<Label id="receiveProductsLabelMoveReason" class="sapRTSTRecvProdLabelReceive" text="{i18n>DETAIL_MOVE_REASON}" visible="{= ${Document>/DeliveryType} === 'ZIPV' ? false : ${Document>/DeliveryType} === 'ZIFR' ? false : true }" />
+	<HBox id="receiveProductsHBoxMoveReason" visible="{= ${Document>/DeliveryType} === 'ZIPV' ? false : ${Document>/DeliveryType} === 'ZIFR' ? false : true }">
+		<!--{= ${Document>/DeliveryType} !== 'ZIPV' }-->
+		<customControls:CompactSizeWrapper visible="{appMode>/detailedReceivingActive}">
+			<Select id="receiveProductsSelectMoveReason" items="{MoveReasons>/results}" width="9.3rem" selectedKey="{DocumentItem>/MoveReasonID}"
+				change="onMoveReasonSelectChange" class="picRTSTRecvProdSelectMoveReason"
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, 
+								   {path: 'Document>/ProcessingState'}, 
+								   {path: 'DocumentItem>/ReceivingIsFinished'}, 
+								   {path: 'DocumentItem>/ReturnQuantityPostingState'}, 
+								   {path: 'DocumentItem>/IsBlockedForReceiving'}, 
+								   {path: 'productTableMode>/tableMode'}], 
+							formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }"
+				autoAdjustWidth="true">
+				<items>
+					<core:Item key="{MoveReasons>MoveReasonID}" text="{MoveReasons>MoveReasonName}"/>
+				</items>
+			</Select>
+		</customControls:CompactSizeWrapper>
+	</HBox>
+	<!-- 
+			QUANTITE A RETOURNER
+	-->
+	<Label id="receiveProductsLabelReturnQuantity" class="sapRTSTRecvProdLabelReceive" text="{i18n>DETAIL_RETURN}"/>
+	<HBox id="receiveProductsHBoxReturnQuantity" visible="{= ${DocumentItem>/MoveReasonID} === '0000' ? false : true }">
+		<customControls:CompactSizeWrapper>
+			<Input id="receiveProductsInputReturnQuantity" class="sapRTSTRecvProdInputReceiveQuantity sapUiTinyMarginEnd" 
+				type="Number" width="4.1rem" textAlign="Right"
+				valueState="{ parts: [{path: 'DocumentItem>/ReturnQuantityIsChanged'}, 
+									  {path: 'DocumentItem>/ReceivingIsFinished'}, 
+									  {path: 'DocumentItem>/ReturnQuantityPostingState'}], 
+								formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputValueState' }"
+				valueStateText="{DocumentItem>/ReturnQuantityPostingMessage}"
+				showValueStateMessage="{path: 'DocumentItem>/ReturnQuantityPostingMessage', 
+									formatter: 'retail.store.receiveproduct.utils.Formatter.formatVisibleIfNotInitial'}"
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, 
+								   {path: 'Document>/ProcessingState'}, 
+								   {path: 'DocumentItem>/ReceivingIsFinished'}, 
+								   {path: 'DocumentItem>/ReturnQuantityPostingState'}, 
+								   {path: 'DocumentItem>/IsBlockedForReceiving'}, 
+								   {path: 'productTableMode>/tableMode'}], 
+							formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }"
+				value="{ path: 'DocumentItem>/ReturnQuantity', formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveQuantityForInput' }"
+				change="onReturnQuantityChange" liveChange="onReturnQuantityLiveChange"></Input>
+			<Text id="receiveProductsTextReturnQuantityUnit" text="{DocumentItem>/ReceiveQuantityUnitCode}" wrapping="false"
+				class="sapRTSTRecvProdTextQuantityUnit"/>
+		</customControls:CompactSizeWrapper>
+	</HBox>
+	<!-- 
+			DLUO DU PRODUIT (DATE)
+	-->
+	<Label id="receiveProductsLabelBestBeforeDate" class="sapRTSTRecvProdLabelReceive" text="{i18n>BEST_BEFORE_DATE}"/>
+	<HBox id="receiveProductsHBoxBestBeforeDate" visible="{= ${DocumentItem>/IsSellByDateMandatory} === false ? false : true }">
+		<customControls:CompactSizeWrapper>
+			<DatePicker id="receiveProductsDatePickerBestBeforeDate" class="sapRTSTRecvProdInputBestBeforeDate sapUiTinyMarginEnd" width="9rem"
+				displayFormat="short" placeholder="Saisir date ..." valueFormat="yyyy-MM-dd"
+				valueState="{ parts: [{path: 'DocumentItem>/BestBeforeDatePostingState'}], 
+								formatter: 'retail.store.receiveproduct.utils.Formatter.formatValueState' }"
+				valueStateText="{DocumentItem>/BestBeforeDatePostingMessage}"
+				showValueStateMessage="{path: 'DocumentItem>/BestBeforeDatePostingMessage', formatter: 'retail.store.receiveproduct.utils.Formatter.formatVisibleIfNotInitial'}"
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, {path: 'Document>/ProcessingState'}, {path: 'DocumentItem>/ReceivingIsFinished'}, {path: 'DocumentItem>/BestBeforeDatePostingState'}, {path: 'DocumentItem>/IsBlockedForReceiving'}, {path: 'productTableMode>/tableMode'}], formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }"
+				value="{ parts: [{path: 'DocumentItem>/BestBeforeDate'}], formatter: 'retail.store.receiveproduct.utils.Formatter.formatBestBeforeDate' }"
+				change="onBestBeforeDateChange"/>
+		</customControls:CompactSizeWrapper>
+	</HBox>
+	<!-- 
+			N° DE LOT DU PRODUIT
+	-->
+	<Label id="receiveProductsLabelBatchNumber" class="sapRTSTRecvProdLabelReceive" text="{i18n>BATCH_NUMBER}"/>
+	<HBox id="receiveProductsHBoxBatchNumber" visible="{= ${DocumentItem>/IsBatchMandatory} === false ? false : true }">
+		<customControls:CompactSizeWrapper>
+			<Input id="receiveProductsInputBatchNumber" class="sapRTSTRecvProdInputBatchNumber sapUiTinyMarginEnd" width="9rem"
+				textAlign="Right"
+				valueState="{ parts: [{path: 'DocumentItem>/BatchNumberPostingState'}], 
+								formatter: 'retail.store.receiveproduct.utils.Formatter.formatValueState' }"
+				valueStateText="{DocumentItem>/BatchNumberPostingMessage}"
+				showValueStateMessage="{path: 'DocumentItem>/BatchNumberPostingMessage', 
+											formatter: 'retail.store.receiveproduct.utils.Formatter.formatVisibleIfNotInitial'}"
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, {path: 'Document>/ProcessingState'}, {path: 'DocumentItem>/ReceivingIsFinished'}, {path: 'DocumentItem>/BatchNumberPostingState'}, {path: 'DocumentItem>/IsBlockedForReceiving'}, {path: 'productTableMode>/tableMode'}], formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }"
+				value="{ path: 'DocumentItem>/BatchNumber'}" change="onBatchNumberChange" liveChange="onBatchNumberLiveChange"/>
+		</customControls:CompactSizeWrapper>
+	</HBox>
+	<!-- 
+			VERS STOCK RESERVE
+	-->
+	<Label id="receiveProductsLabelStockRoomQuantity" class="sapRTSTRecvProdLabelReceive" text="{i18n&gt;PRODUCTS_HEADER_STOCK_ROOM}"/>
+	<HBox id="receiveProductsHBoxStockRoomQuantity" visible="{appMode>/StockRoomUseAllowed}"> <!-- TFS 4975 : Cacher la colonne vers réserve si lme PDV n'a pas les autorisations -->
+		<customControls:CompactSizeWrapper>
+			<HBox>
+				<Input id="receiveProductsInputStockRoomQuantity" class="sapUiTinyMarginEnd" type="Number" width="4.1rem" textAlign="Right"
+					enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, 
+									   {path: 'Document>/ProcessingState'}, 
+									   {path: 'DocumentItem>/ReceivingIsFinished'}, 
+									   {path: 'DocumentItem>/BatchNumberPostingState'}, 
+									   {path: 'DocumentItem>/IsBlockedForReceiving'}, 
+									   {path: 'productTableMode>/tableMode'}], 
+								formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }"
+					value="{ path: 'DocumentItem>/StockRoomQuantity',
+								formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveQuantityForInput'}" 
+					change="onStockRoomQuantityChange" liveChange="onStockRoomQuantityLiveChange"/>
+				<Button text="+1" width="3.5rem" type="Emphasized" press="onAddOneBoxButtonPress" class="sapUiTinyMarginEnd" 
+					enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, 
+									   {path: 'Document>/ProcessingState'}, 
+									   {path: 'DocumentItem>/ReceivingIsFinished'}, 
+									   {path: 'DocumentItem>/BatchNumberPostingState'}, 
+									   {path: 'DocumentItem>/IsBlockedForReceiving'}, 
+									   {path: 'productTableMode>/tableMode'}], 
+						formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }" />
+				<Button text="+0.5" width="3.5rem" type="Emphasized" press="onAddHalfBoxButtonPress" class="sapUiTinyMarginEnd"
+					enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, 
+									   {path: 'Document>/ProcessingState'}, 
+									   {path: 'DocumentItem>/ReceivingIsFinished'}, 
+									   {path: 'DocumentItem>/BatchNumberPostingState'}, 
+									   {path: 'DocumentItem>/IsBlockedForReceiving'}, 
+									   {path: 'productTableMode>/tableMode'}], 
+						formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }" />
+				<Button id="orderProductsButtonDelete" width="3.5rem" type="Transparent" icon="sap-icon://delete" press="onDeleteButtonPress"
+					enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'}, 
+									   {path: 'Document>/ProcessingState'}, 
+									   {path: 'DocumentItem>/ReceivingIsFinished'}, 
+									   {path: 'DocumentItem>/BatchNumberPostingState'}, 
+									   {path: 'DocumentItem>/IsBlockedForReceiving'}, 
+									   {path: 'productTableMode>/tableMode'}], 
+						formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }" />
+			</HBox>
+		</customControls:CompactSizeWrapper>
+	</HBox>
+</core:FragmentDefinition>

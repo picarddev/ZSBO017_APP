@@ -1,0 +1,11 @@
+[{
+	"StoreID": "FA01",
+	"SupplierInternalID": "L0001",
+	"SupplierName": "Jim and John",
+	"ExpectedDeliveryDate": "\/Date(1414450800000)\/"
+}, {
+	"StoreID": "FA01",
+	"SupplierInternalID": "L0002",
+	"SupplierName": "Charlieâ€™s Chocolates",
+	"ExpectedDeliveryDate": "\/Date(1417132800000)\/"
+}]

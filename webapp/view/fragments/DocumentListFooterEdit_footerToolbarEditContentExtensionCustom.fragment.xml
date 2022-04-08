@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<!-- 
+			BOUTON POUR AFFICHER LA LISTE DES MOTIFS DE REFUS DANS LE FOOTER DU MASTER
+	-->
+	<Button xmlns="sap.m" id="receiveProductsMoveReasonButton" text="{i18n&gt;COMMON_MOVE_REASON}" width="50%" press="onMoveReasonButtonPress" />
+</core:FragmentDefinition>

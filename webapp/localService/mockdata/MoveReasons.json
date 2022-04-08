@@ -1,0 +1,81 @@
+{
+	"d": {
+		"results": [{
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0051',StoreID='')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0051',StoreID='')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.MoveReason"
+			},
+			"MoveReasonID": "0051",
+			"MoveReasonName": "DESTOCKAGE AUTORISE",
+			"IsReturnOrder": true,
+			"MovementType": "641",
+			"StorageLocation": "M002",
+			"IsNoDisputeSite": false,
+			"IsSellByDateMandatory": false,
+			"IsBatchMandatory": false,
+			"IsPackageMandatory": false,
+			"IsDestructionMandatory": false,
+			"IsFree": false,
+			"StoreID": "0056",
+			"TransactionCode": "ZSBO017A"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0061',StoreID='')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0061',StoreID='')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.MoveReason"
+			},
+			"MoveReasonID": "0061",
+			"MoveReasonName": "LIVRE DETERIORE",
+			"IsReturnOrder": true,
+			"MovementType": "641",
+			"StorageLocation": "M002",
+			"IsNoDisputeSite": false,
+			"IsSellByDateMandatory": false,
+			"IsBatchMandatory": false,
+			"IsPackageMandatory": false,
+			"IsDestructionMandatory": false,
+			"IsFree": false,
+			"StoreID": "0056",
+			"TransactionCode": "ZSBO017A"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0063',StoreID='')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0063',StoreID='')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.MoveReason"
+			},
+			"MoveReasonID": "0063",
+			"MoveReasonName": "REFUS TEMPERATURE",
+			"IsReturnOrder": true,
+			"MovementType": "641",
+			"StorageLocation": "M002",
+			"IsNoDisputeSite": false,
+			"IsSellByDateMandatory": false,
+			"IsBatchMandatory": false,
+			"IsPackageMandatory": false,
+			"IsDestructionMandatory": false,
+			"IsFree": false,
+			"StoreID": "0056",
+			"TransactionCode": "ZSBO017A"
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0098',StoreID='')",
+				"uri": "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/MoveReasons(MoveReasonID='0098',StoreID='')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.MoveReason"
+			},
+			"MoveReasonID": "0098",
+			"MoveReasonName": "LITIGE / NON LIVRE",
+			"IsReturnOrder": false,
+			"MovementType": "301",
+			"StorageLocation": "M201",
+			"IsNoDisputeSite": false,
+			"IsSellByDateMandatory": false,
+			"IsBatchMandatory": false,
+			"IsPackageMandatory": false,
+			"IsDestructionMandatory": false,
+			"IsFree": false,
+			"StoreID": "0056",
+			"TransactionCode": "ZSBO017A"
+		}]
+	}
+}

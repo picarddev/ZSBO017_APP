@@ -1,0 +1,84 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "DFR",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "DFR"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "target": {
+        "type": "destination",
+        "name": "DFR",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "DFR"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.71.47"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.71.47"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/dist/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.71.47"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/dist/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.71.47"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.71.47"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.71.47"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}

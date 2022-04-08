@@ -1,0 +1,377 @@
+/* ---------------------------------------------- */
+
+
+/* ------------   Document List Part ------------ */
+
+
+/* ---------------------------------------------- */
+
+
+/*
+ * TFS 2784 : Puce état du document Terminé
+*/
+
+.sapRTSTRecvProdListDocuments .sapMObjLItem .sapMObjStatusSuccess>.sapMObjStatusText,
+.sapRTSTRecvProdListDocuments .sapMObjLItem .sapMObjStatusSuccess>.sapMObjStatusIcon {
+    min-width: 3rem;
+    background: #16a085;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+
+
+/*
+ * TFS 2784 : Puce état du document En Cours
+*/
+
+.sapRTSTRecvProdListDocuments .sapMObjLItem .sapMObjStatusWarning>.sapMObjStatusText,
+.sapRTSTRecvProdListDocuments .sapMObjLItem .sapMObjStatusWarning>.sapMObjStatusIcon {
+    min-width: 3rem;
+    background: #f39c12;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+
+
+/*
+ * TFS 2784 : Puce état du document Erreur
+*/
+
+.sapRTSTRecvProdListDocuments .sapMObjLItem .sapMObjStatusError>.sapMObjStatusText,
+.sapRTSTRecvProdListDocuments .sapMObjLItem .sapMObjStatusError>.sapMObjStatusIcon {
+    min-width: 3rem;
+    background: #c0392b;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+
+.sapRTSTRecvProdObjectAttrNotProcMessage {
+    min-width: 3rem;
+    background: #c0392b;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+
+.sapRTSTRecvProdObjectAttrNotProcMessage > .sapMObjectAttributeText {
+    color: white !important;
+}
+
+
+/* 
+ * TFS 2784 :
+ * Style du nouvel attribut MoveReason sur les documents de l'écran Master
+ */
+
+.sapRTSTRecvProdListDocuments .sapMObjLItem {
+    position: relative;
+}
+
+.picRTSTRecvDocListAttrMoveReason {
+    position: absolute;
+    top: 2.5rem;
+}
+
+.picRTSTRecvDocListAttrMoveReason .sapMText {
+    margin-top: 0.1rem;
+    padding: 0.2rem 0.5rem;
+    display: inline-block;
+    font-size: .720rem;
+    color: white;
+    background: #2980b9;
+    border-radius: 3px;
+}
+
+.picRTSTRecvDocListAttrMoveReason.picRTSTRecvDocListAttrAlert {
+    max-width: 50%;
+}
+
+.picRTSTRecvDocListAttrMoveReason.picRTSTRecvDocListAttrAlert .sapMText {
+    color: white;
+    background: #c0392b;
+}
+
+
+/* ---------------------------------------------- */
+
+
+/* ------------    Product List Part ------------ */
+
+
+/* ---------------------------------------------- */
+
+.sapMInputBaseInner {
+    border-radius: 3px;
+}
+
+
+/*
+ * TFS 3748 : Rendre visible les saisies de 7 caractères
+ *			  dans le champs quantité reçue.
+*/
+
+.sapRTSTRecvProdInputReceiveQuantity {
+    width: 4.1rem !important;
+}
+
+.sapRTSTRecvProdInputReceiveQuantity > .sapMInputBaseInner {
+    padding: 0 0.4rem !important;
+}
+
+
+/* 
+ * TFS 2784 :
+ * Style de la liste des produits d'un roll
+ */
+
+.sapRTSTRecvProdTableProducts .sapMTB {
+    border: none;
+}
+
+.sapRTSTRecvProdTableProducts table {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+
+/*
+ * TFS 2784 : Style de l'attribut "Code article | PCB" sous le libellé article
+*/
+
+.picardReceiveProductsLabelAttribute.sapMLabel {
+    margin-top: 0.1rem;
+    font-size: small;
+    color: #666;
+}
+
+
+/*
+ * TFS 2784 : Style du motif sous le nom du produit
+*/
+
+.picardReceiveProductsObjectStatusMoveReason.sapMObjStatusNone>.sapMObjStatusText,
+.picardReceiveProductsObjectStatusMoveReason.sapMObjStatusNone>.sapMObjStatusIcon {
+    margin-top: 0.3rem;
+    padding: 0.3rem 0.4rem;
+    display: inline-block;
+    font-size: smaller;
+    color: white;
+    /*background: #277ead;*/
+    background: #579bbf;
+    border-radius: 3px;
+}
+
+.picardReceiveProductsObjectStatusMoveReason.sapMObjStatusError>.sapMObjStatusText,
+.picardReceiveProductsObjectStatusMoveReason.sapMObjStatusError>.sapMObjStatusIcon {
+    margin-top: 0.3rem;
+    padding: 0.3rem 0.4rem;
+    display: inline-block;
+    font-size: smaller;
+    color: white;
+    /*background: #277ead;*/
+    background: #c0392b;
+    border-radius: 3px;
+}
+
+
+/*
+ * TFS 4391 : Style de la qté vers la réserve
+*/
+
+.receiveProductsObjectStatusStockRoomQuantity.sapMObjStatusSuccess > .sapMObjStatusText,
+.receiveProductsObjectStatusStockRoomQuantity.sapMObjStatusSuccess > .sapMObjStatusIcon {
+    color: #469869;
+}
+
+
+/*
+ * TFS 2784 : Icone étoile sur les articles en promotion
+*/
+
+div[data-product="IsOnPromotion-true"]:before {
+    content: "\2605";
+    position: absolute;
+    left: 230px;
+    top: -25px;
+    font-size: 1.5rem;
+    color: #da5f6e;
+}
+
+
+/*
+ * TFS  : Valeur des litiges en rouge
+*/
+
+span.sapMText[data-openquantitystate="Error"] {
+    color: #c50808;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/*
+ * TFS 2784 : Puce état du document Terminé coté Product List
+*/
+
+.sapRTSTRecvProdObjectHeader .sapMObjStatusSuccess>.sapMObjStatusText,
+.sapRTSTRecvProdObjectHeader .sapMObjStatusSuccess>.sapMObjStatusIcon {
+    background: #16a085;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/*
+ * TFS 2784 : Puce état du document En Cours coté Product List
+*/
+
+.sapRTSTRecvProdObjectHeader .sapMObjStatusWarning>.sapMObjStatusText,
+.sapRTSTRecvProdObjectHeader .sapMObjStatusWarning>.sapMObjStatusIcon {
+    background: #f39c12;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/*
+ * TFS 2784 : Puce état du document Erreur coté Product List
+*/
+
+.sapRTSTRecvProdObjectHeader .sapMObjStatusError>.sapMObjStatusText,
+.sapRTSTRecvProdObjectHeader .sapMObjStatusError>.sapMObjStatusIcon {
+    background: #c0392b;
+    padding: 0.2rem 0.8rem;
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+}
+
+.sapMInputBaseInner::-webkit-input-placeholder {
+    font-size: small;
+    color: #444;
+    opacity: 1;
+}
+
+.sapMInputBaseInner::-moz-placeholder {
+    font-size: small;
+    color: #444;
+    opacity: 1;
+}
+
+.sapMInputBaseInner::-ms-input-placeholder {
+    font-size: small;
+    color: #444;
+    opacity: 1;
+}
+
+.sapMInputBaseInner::placeholder {
+    font-size: small;
+    color: #444;
+    opacity: 1;
+}
+
+
+/*.picardreceiveProductsTextReturnQuantity {*/
+
+
+/*    color: #2980b9 !important;*/
+
+
+/*}*/
+
+
+/*.sapRTSTRecvProdColumnProduct .sapUiIcon {*/
+
+
+/*	color: #c30505;*/
+
+
+/*}*/
+
+
+/* ---------------------------------------------- */
+
+
+/* ------------ Product Details Part ------------ */
+
+
+/* ---------------------------------------------- */
+
+.sapRTSTRecvProdInputReturnQuantity .sapMInputBaseWarningInner {
+    border-color: @sapNeutralColor;
+}
+
+.picRTSTRecvProdLabelMoveReason {
+    padding-top: 0.5rem;
+}
+
+.picRTSTRecvProdSelectMoveReason {
+    min-width: 9.3rem;
+}
+
+.picRTSTRecvProdSelectMoveReason > .sapMSltLabel {
+    color: #e83535;
+}
+
+.sapRTSTRecvProdInputBatchNumber,
+.sapRTSTRecvProdInputBestBeforeDate {
+    min-width: 8rem;
+}
+
+.picardReceiveProductsObjectStatusMoveReason {
+    font-weight: 100;
+}
+
+.picardReceiveProductsObjectStatusBlockingReason {}
+
+.picardReceiveProductsObjectStatusBlockingReason .sapMObjStatusText {
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    display: inline-block;
+    font-size: smaller;
+    color: white;
+    background: #c30505;
+    border-radius: 3px;
+}
+
+.sapRTSTRecvProdGridProduct .sapUiFormResGrid > div {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.sapMListTblCell.sapRTSTRecvProdColumnProducts:nth-child(4) .sapMFlexBox:first-child {
+    /*border-left: 1px solid #e5e5e5;*/
+}
+
+.sapRTSTRecvProdObjectHeaderDetail {
+	margin-bottom: 2rem;	
+}
+
+.picardRTSTRecvProdTagColorVBoxContainer {
+    max-width: 90%;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+}
+
+.picardRTSTRecvProdTagColorVBoxContainer .sapMPanelContent {
+    padding: 0;
+    border: 0;
+}

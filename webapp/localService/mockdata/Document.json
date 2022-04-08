@@ -1,0 +1,65 @@
+{
+	"d": {
+		"__count": "1",
+		"results": [{
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Documents(StoreID='0056',DocumentInternalID='X0007966143')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Documents(StoreID='0056',DocumentInternalID='X0007966143')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Document"
+			},
+			"StoreID": "0056",
+			"DocumentInternalID": "X0007966143",
+			"DocumentDisplayID": "000000087000995001",
+			"DocumentType": "X",
+			"SupplierInternalID": "B8250",
+			"SupplierDisplayID": "8250",
+			"SupplierName": "PFD SOFRICA TRAPPES",
+			"SupplierCategory": "B",
+			"ExpectedDeliveryDate": "\/Date(1522972800000)\/",
+			"TotalItemsCount": "10.0",
+			"PostedItemsCount": "0.0",
+			"CheckedItemsCount": "0.0",
+			"ContainsCustomerOrderedProduct": false,
+			"HighestLevelHUDocumentInternalID": "",
+			"HigherLevelHUDocumentInternalID": "",
+			"HandlingUnitPackagingProductType": "Z001",
+			"HandlingUnitPackagingProductTypeName": "Roll",
+			"HandlingUnitContentDescription": "",
+			"ContainsLowerLevelHandlingUnits": false,
+			"AssignedDeliveryIDs": "87000995",
+			"DeliveryType": "ZPDV",
+			"DeliveryTypeName": "Prépa Réappro PDV",
+			"AssignedPurchaseOrderIDs": "5100886105",
+			"PurchaseOrderType": "",
+			"PurchaseOrderTypeName": "",
+			"Barcode": "",
+			"ProcessingState": "0",
+			"LastProcessedTime": null,
+			"PostingNotAllowed": true,
+			"PostingNotAllowedMessage": "Unité de manutention 000000087000995001 comprend des postes bloqués. EM uniquement possible au niv. poste.",
+			"NotProcessableMessage": "",
+			"TrackingNumber": "",
+			"TotalSalesUnitCount": "86.0",
+			"MoveReasonID": "0000",
+			"MoveReasonName": "",
+			"ReceivingStoreID": "",
+			"IsExpectedDeliveryDateForced": false,
+			"UserIdentifier": "DEV2",
+			"DocumentItems": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Documents(StoreID='0056',DocumentInternalID='X0007966143')/DocumentItems"
+				}
+			},
+			"LowerLevelHandlingUnits": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Documents(StoreID='0056',DocumentInternalID='X0007966143')/LowerLevelHandlingUnits"
+				}
+			},
+			"HighestLevelHandlingUnit": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Documents(StoreID='0056',DocumentInternalID='X0007966143')/HighestLevelHandlingUnit"
+				}
+			}
+		}]
+	}
+}

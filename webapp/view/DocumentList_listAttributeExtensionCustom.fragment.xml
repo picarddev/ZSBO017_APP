@@ -1,0 +1,37 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	
+	<!-- 
+			TFS 4391 : Inserer le numéro de commande côté master
+	-->
+	
+	<ObjectAttribute xmlns="sap.m" id="receiveProductsObjAttrPurchaseOrderID" 
+									text="{AssignedPurchaseOrderIDs}" />
+	
+	<!-- 
+			TFS 4391 : Inserer la date de livraison côté master
+	-->
+	
+	<ObjectAttribute id="receiveProductsObjAttrOrderDeliveryDate" 
+		text="{path: 'ExpectedDeliveryDate', 
+			formatter: 'retail.store.receiveproduct.utils.Formatter.formatExpectedDate'}" />
+	
+	<!-- 
+			TFS 2784 : Ajouter le code motif en tant que nouvel attribut des documents listés dans l'écran Master 
+	-->
+	
+	<ObjectAttribute xmlns="sap.m" id="receiveProductsObjAttrMoveReason" text="{MoveReasonName}" class="picRTSTRecvDocListAttrMoveReason">
+		<customData>
+			<core:CustomData key="MoveReasonID" value="MoveReasonID-{MoveReasonID}" writeToDom="true"/>
+		</customData>
+	</ObjectAttribute>
+	
+	<!-- 
+			TFS 2784 : Ajouter le message d'erreur en tant que nouvel attribut des documents listés dans l'écran Master 
+	-->
+	
+	<ObjectAttribute id="receiveProductsMasterObjAttrNotProcMessage" class="picRTSTRecvDocListAttrMoveReason picRTSTRecvDocListAttrAlert"
+					    text="{NotProcessableMessage}"
+					    visible="{path: 'Document>/NotProcessableMessage', formatter: 'retail.store.receiveproduct.utils.Formatter.formatVisibleIfNotInitial'}">
+	</ObjectAttribute>        
+	
+</core:FragmentDefinition>

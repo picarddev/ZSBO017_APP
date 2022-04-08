@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:sap="http://www.sap.com/Protocols/SAPData">
+	<edmx:DataServices m:DataServiceVersion="2.0">
+		<Schema Namespace="RETAILSTORE_RECEIVE_PRODUCT_SRV" xml:lang="fr" sap:schema-version="1"
+			xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+			<EntityType Name="User" sap:content-version="1">
+				<Key><PropertyRef Name="UserID"/></Key><Property Name="UserID" Type="Edm.String" Nullable="false" MaxLength="12" sap:label="Util." sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="AssignedStoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false"
+					sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="Store" sap:service-schema-version="2" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="StoreName" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Nom 1" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="City" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Localité" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Street" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Rue/nº de rue" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostalCode" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Code postal" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="FormattedAddress" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><NavigationProperty Name="Filters" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Filter" FromRole="FromRole_Store_Filter"
+					ToRole="ToRole_Store_Filter"/><NavigationProperty Name="Products" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Product" FromRole="FromRole_Store_Product"
+					ToRole="ToRole_Store_Product"/><NavigationProperty Name="Documents" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Document" FromRole="FromRole_Store_Document"
+					ToRole="ToRole_Store_Document"/><NavigationProperty Name="DocumentsByScan" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Document" FromRole="FromRole_Store_Document"
+					ToRole="ToRole_Store_Document"/><NavigationProperty Name="DocumentsAfterPost" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Document"
+					FromRole="FromRole_Store_Document" ToRole="ToRole_Store_Document"/><NavigationProperty Name="Suppliers" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Supplier" FromRole="FromRole_Store_Supplier"
+					ToRole="ToRole_Store_Supplier"/><NavigationProperty Name="SettingsSet" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Settings" FromRole="FromRole_Store_Settings"
+					ToRole="ToRole_Store_Settings"/><NavigationProperty Name="MoveReasons" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_MoveReason" FromRole="FromRole_Store_MoveReason"
+					ToRole="ToRole_Store_MoveReason"/></EntityType>
+			<EntityType Name="Filter" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="FilterID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="FilterID" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="ID de filtre" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="FilterName" Type="Edm.String" Nullable="false" sap:label="Nom du filtre" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><NavigationProperty Name="FilterValues" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter_FilterValue"
+					FromRole="FromRole_Filter_FilterValue" ToRole="ToRole_Filter_FilterValue"/><NavigationProperty Name="UserDefaultFilterValues" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter_FilterValue"
+					FromRole="FromRole_Filter_FilterValue" ToRole="ToRole_Filter_FilterValue"/><NavigationProperty Name="SystemDefaultFilterValues" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter_FilterValue"
+					FromRole="FromRole_Filter_FilterValue" ToRole="ToRole_Filter_FilterValue"/></EntityType>
+			<EntityType Name="FilterValue" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="FilterID"/><PropertyRef Name="FilterValueID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="FilterID" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="ID de filtre" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="FilterValueID" Type="Edm.String" Nullable="false" MaxLength="50" sap:label="Valeur filtre" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="FilterValueName" Type="Edm.String" Nullable="false" sap:label="Nom de valeur filtre" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="Product" m:HasStream="true" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Désignation" sap:creatable="false"
+					sap:updatable="false" sap:filterable="false"/><Property Name="MainGlobalTradeItemNumber" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Code EAN/UPC" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="MerchandiseCategory" Type="Edm.String" Nullable="false" MaxLength="9" sap:label="Grpe marchand." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="MerchandiseCategoryName" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Dés.grpe march." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ImageURL" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ImageThumbURL" Type="Edm.String" Nullable="false" MaxLength="255" sap:label="URL" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Color" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Désignation" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="Size1" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Désignation" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Size2" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Désignation" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="BrandID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Marque" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BrandName" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Dés. marque" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OldProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Anc. n° article" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IsBlockedForReceiving" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="MimeType" Type="Edm.String" Nullable="false" sap:label="Mime Type of the corresponding media" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SalesStatusID" Type="Edm.String" Nullable="false" MaxLength="2" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="SalesStatusName" Type="Edm.String" Nullable="false" MaxLength="20" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="IsOnPromotion" Type="Edm.Boolean" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><NavigationProperty Name="ProductSupplier" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_ProductSupplier"
+					FromRole="FromRole_Product_ProductSupplier" ToRole="ToRole_Product_ProductSupplier"/><NavigationProperty Name="ProductQuantityUnit" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_ProductQuantityUnit"
+					FromRole="FromRole_Product_ProductQuantityUnit" ToRole="ToRole_Product_ProductQuantityUnit"/><NavigationProperty Name="ProductGlobalTradeItemNumber" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_GlobalTradeItemNumber"
+					FromRole="FromRole_Product_GlobalTradeItemNumber" ToRole="ToRole_Product_GlobalTradeItemNumber"/><NavigationProperty Name="Thumbnail" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_Product" FromRole="FromRole_Product_Product"
+					ToRole="ToRole_Product_Product"/></EntityType>
+			<EntityType Name="Document" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DocumentDisplayID" Type="Edm.String" Nullable="false" sap:label="Document ID to be Displayed" sap:creatable="false"
+					sap:updatable="false" sap:filterable="false"/><Property Name="DocumentType" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Type doc.commer" sap:creatable="false"
+					sap:updatable="false"/><Property Name="SupplierInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID fournisseur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="SupplierDisplayID" Type="Edm.String" Nullable="false" sap:label="Supplier ID to be Displayed" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SupplierName" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Nom" sap:creatable="false" sap:updatable="false"
+					sap:filterable="false"/><Property Name="SupplierCategory" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Catég. fournisseur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="ExpectedDeliveryDate" Type="Edm.DateTime" Nullable="false" Precision="0" sap:label="DateLivr." sap:creatable="false"
+					sap:updatable="false"/><Property Name="TotalItemsCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:label="Total Items Count"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedItemsCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:label="Posted Items Count"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="CheckedItemsCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:label="Checked Items Count"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ContainsCustomerOrderedProduct" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="HighestLevelHUDocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="HigherLevelHUDocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="HandlingUnitPackagingProductType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Type emb. exp."
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="HandlingUnitPackagingProductTypeName" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Désignation"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="HandlingUnitContentDescription" Type="Edm.String" Nullable="false" sap:label="Description of Handling Unit Content"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ContainsLowerLevelHandlingUnits" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="AssignedDeliveryIDs" Type="Edm.String" Nullable="false" sap:label="0" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DeliveryType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Type livraison" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DeliveryTypeName" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Désignation" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="AssignedPurchaseOrderIDs" Type="Edm.String" Nullable="false" sap:label="0" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="PurchaseOrderType" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Type document" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PurchaseOrderTypeName" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Désignation" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Barcode" Type="Edm.String" Nullable="false" MaxLength="64" sap:label="Code à barres" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="ProcessingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Statut de traitement" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="LastProcessedTime" Type="Edm.DateTime" Precision="0" sap:label="Horodatage" sap:creatable="false" sap:updatable="false"
+					sap:filterable="false"/><Property Name="PostingNotAllowed" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="PostingNotAllowedMessage" Type="Edm.String" Nullable="false"
+					sap:label="Msg that will be displayed if trusted posting is not allowed" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="NotProcessableMessage" Type="Edm.String" Nullable="false"
+					sap:label="Msg that will be displayed if the doc. is not processable" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="TrackingNumber" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Lettre voiture" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="TotalSalesUnitCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="MoveReasonID" Type="Edm.String" Nullable="false" MaxLength="4" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="MoveReasonName" Type="Edm.String" Nullable="false" MaxLength="20" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ReceivingStoreID" Type="Edm.String" MaxLength="4" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IsExpectedDeliveryDateForced" Type="Edm.Boolean" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="UserIdentifier" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><NavigationProperty Name="DocumentItems" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document_DocumentItem"
+					FromRole="FromRole_Document_DocumentItem" ToRole="ToRole_Document_DocumentItem"/><NavigationProperty Name="LowerLevelHandlingUnits" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document_LowerLevelDocument"
+					FromRole="FromRole_Document_LowerLevelDocument" ToRole="ToRole_Document_LowerLevelDocument"/><NavigationProperty Name="HighestLevelHandlingUnit" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document_HighestLevelDocument"
+					FromRole="FromRole_Document_HighestLevelDocument" ToRole="ToRole_Document_HighestLevelDocument"/></EntityType>
+			<EntityType Name="DocumentItem" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/><PropertyRef Name="DocumentItemInternalID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DocumentItemInternalID" Type="Edm.Int32" Nullable="false" sap:label="Document Item ID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ExpectedQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="ExpectedQuantityUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ExpectedQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="ExpectedQuantityUnitName" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Texte unité" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ExpectedQuantityUnitIsoCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="ExpectedQuantityUnitIsoName" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Désignation du code ISO"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="PostedQuantityUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="PostedQuantityUnitName" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Texte unité" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityUnitIsoCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Désignation du code ISO"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="PostedQuantityUnitIsoName" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Désignation du code ISO"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OpenQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="OpenQuantityUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OpenQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="OpenQuantityUnitName" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Texte unité" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OpenQuantityUnitIsoCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="OpenQuantityUnitIsoName" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Désignation du code ISO"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="ReceiveQuantityUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="ReceiveQuantityUnitName" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Texte unité" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityUnitIsoCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="ReceiveQuantityUnitIsoName" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Désignation du code ISO"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ExpectedDeliveryDate" Type="Edm.DateTime" Nullable="false" Precision="0" sap:label="DateLivr." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IsFinallyDelivered" Type="Edm.Boolean" Nullable="false" sap:label="Livrais.finale" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceivingIsFinished" Type="Edm.Boolean" Nullable="false" sap:label="L'utilisateur indique que la réception est terminée."
+					sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="AssignedDeliveryID" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Livraison" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="AssignedDeliveryItemID" Type="Edm.Int32" Nullable="false" sap:label="Delivery Item ID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="AssignedPurchaseOrderID" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Document achat" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="AssignedPurchaseOrderItemID" Type="Edm.Int32" Nullable="false" sap:label="Purchase Order Item ID" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ExpectedQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OpenQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OrderQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="QuantityBaseUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="ReceiveQuantityIsChanged" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityPostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Statut enregistrem."
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityPostingMessage" Type="Edm.String" Nullable="false" sap:label="Message from posting" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityGTIN" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Code EAN/UPC" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OrderQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="OrderQuantityUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OrderQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité d'achat" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="OrderQuantityUnitNumerator" Type="Edm.Decimal" Nullable="false" Precision="5" Scale="0" sap:label="Correspond à"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OrderQuantityUnitDenominator" Type="Edm.Decimal" Nullable="false" Precision="5" Scale="0" sap:label="Dénominateur"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DeliveryQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité de vente" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="DeliveryQuantityUnitNumerator" Type="Edm.Decimal" Nullable="false" Precision="5" Scale="0" sap:label="Numérateur"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DeliveryQuantityUnitDenominator" Type="Edm.Decimal" Nullable="false" Precision="5" Scale="0" sap:label="Dénominat."
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ProcessingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Statut de traitement" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="LastProcessedTime" Type="Edm.DateTime" Precision="0" sap:label="Date/Heure" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="AssignedMaterialDocIDs" Type="Edm.String" Nullable="false" sap:label="Assigned material document IDs" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ChangeID" Type="Edm.String" Nullable="false" ConcurrencyMode="Fixed" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="IsBlockedForReceiving" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BlockingReason" Type="Edm.String" Nullable="false" sap:label="Reason for Blocking" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="MoveReasonID" Type="Edm.String" MaxLength="4" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="MoveReasonName" Type="Edm.String" MaxLength="20" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="ReceiveQuantityUnitCode"
+					sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityIsChanged" Type="Edm.Boolean" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityPostingState" Type="Edm.String" MaxLength="1" sap:creatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="ReturnQuantityPostingMessage" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BestBeforeDate" Type="Edm.DateTime" Precision="0" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="BestBeforeDatePostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BestBeforeDatePostingMessage" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BatchNumber" Type="Edm.String" MaxLength="15" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="BatchNumberPostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BatchNumberPostingMessage" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ColdRoomQuantity" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode" sap:creatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ColdRoomQuantityUnitCode" Type="Edm.String" MaxLength="3" sap:creatable="false" sap:sortable="false" sap:filterable="false"
+					sap:semantics="unit-of-measure"/><NavigationProperty Name="Product" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_DocumentItem"
+					FromRole="ToRole_Product_DocumentItem" ToRole="FromRole_Product_DocumentItem"/></EntityType>
+			<EntityType Name="ScanInformation" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="Barcode"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="Barcode" Type="Edm.String" Nullable="false" MaxLength="64" sap:label="Code à barres" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ScannedIDType" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Type d'ID scanné" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DocumentDisplayID" Type="Edm.String" Nullable="false" sap:label="Document ID to be Displayed" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DocumentType" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Type doc.commer" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="LowerLevelHandlingUnitInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceivingStoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceivingStoreName" Type="Edm.String" Nullable="false" MaxLength="30" sap:label="Nom 1" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="GlobalTradeItemNumber" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Code EAN/UPC" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" sap:label="Désignation" sap:creatable="false"
+					sap:updatable="false" sap:filterable="false"/><Property Name="ExpectedDeliveryDate" Type="Edm.DateTime" Precision="0" sap:label="DateLivr." sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="TrackingNumber" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Lettre voiture" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ScannedIDSubType" Type="Edm.String" Nullable="false" MaxLength="2" sap:label="Type d'ID scanné" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="ProductQuantityUnit" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/><PropertyRef Name="QuantityUnitCode"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="QuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="LowerLevelQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int."
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="Numerator" Type="Edm.Decimal" Nullable="false" Precision="5" Scale="0" sap:label="Numérateur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Denominator" Type="Edm.Decimal" Nullable="false" Precision="5" Scale="0" sap:label="Dénominateur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="QuantityUnitName" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Texte unité" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="QuantityUnitIsoCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="QuantityUnitIsoName" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IsBaseUnit" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="IsSalesUnit" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="ProductGlobalTradeItemNumber" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/><PropertyRef Name="GlobalTradeItemNumber"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="GlobalTradeItemNumber" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Code EAN/UPC" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="QuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="IsMainGTINForQuantityUnit" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="ProductSupplier" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/><PropertyRef Name="SupplierInternalID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="SupplierInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID fournisseur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SupplierDisplayID" Type="Edm.String" Nullable="false" sap:label="Supplier ID to be Displayed" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SupplierName" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Nom" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="ProductOrderQuantityUnit" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/><PropertyRef Name="SupplierInternalID"/><PropertyRef Name="OrderQuantityUnitCode"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="SupplierInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID fournisseur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OrderQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/></EntityType>
+			<EntityType Name="PostDocument" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/><PropertyRef Name="Barcode"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="Barcode" Type="Edm.String" Nullable="false" MaxLength="64" sap:label="Code à barres" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="DocumentDisplayID" Type="Edm.String" Nullable="false" sap:label="Document ID to be Displayed" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DocumentType" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Type doc.commer" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="PostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Statut enregistrem." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostingMessage" Type="Edm.String" Nullable="false" MaxLength="100" sap:label="Texte mess." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ProcessingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Statut de traitement" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="LastProcessedTime" Type="Edm.DateTime" Precision="0" sap:label="Horodatage" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="TotalItemsCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:label="Total Items Count"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedItemsCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:label="Posted Items Count"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="CheckedItemsCount" Type="Edm.Decimal" Nullable="false" Precision="10" Scale="1" sap:label="Checked Items Count"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="MoveReasonID" Type="Edm.String" MaxLength="4" sap:creatable="false" sap:updatable="false" sap:sortable="false"/><Property Name="ReceivingStoreID" Type="Edm.String" MaxLength="4" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="UserIdentifier" Type="Edm.String" MaxLength="10" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><NavigationProperty Name="PostDocumentItems" Relationship="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocument_PostDocumentItem"
+					FromRole="FromRole_PostDocument_PostDocumentItem" ToRole="ToRole_PostDocument_PostDocumentItem"/></EntityType>
+			<EntityType Name="PostDocumentItem" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/><PropertyRef Name="DocumentItemInternalID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DocumentInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID de document" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="DocumentItemInternalID" Type="Edm.Int32" Nullable="false" sap:creatable="false" sap:updatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="ProductID" Type="Edm.String" Nullable="false" MaxLength="18" sap:label="Article" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="PostedQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="PostedQuantityUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="PostedQuantityUnitName" Type="Edm.String" Nullable="false" MaxLength="10" sap:label="Texte unité" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityUnitIsoCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityUnitIsoName" Type="Edm.String" Nullable="false" MaxLength="25" sap:label="Code ISO" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="IsFinallyDelivered" Type="Edm.Boolean" Nullable="false" sap:label="Livrais.finale" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceivingIsFinished" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="ReceiveQuantityUnitCode"
+					sap:label="Qté commandée" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="ReceiveQuantityIsChanged" Type="Edm.Boolean" Nullable="false" sap:label="VRAI" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityPostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Statut enregistrem."
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReceiveQuantityPostingMessage" Type="Edm.String" Nullable="false" sap:label="Message from posting" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="PostedQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OpenQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="ReceiveQuantityUnitCode"
+					sap:label="Qté commandée" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="OpenQuantityUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:updatable="false"
+					sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="OpenQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:label="Qté commandée" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="QuantityBaseUnitCode" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Unité mes. int." sap:creatable="false"
+					sap:sortable="false" sap:filterable="false" sap:semantics="unit-of-measure"/><Property Name="LastProcessedTime" Type="Edm.DateTime" Precision="0" sap:label="Date/Heure" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="AssignedMaterialDocIDs" Type="Edm.String" Nullable="false" sap:label="Assigned Material Document IDs" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ChangeID" Type="Edm.String" Nullable="false" ConcurrencyMode="Fixed" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DummyDocumentItemIncl" Type="Edm.String" Nullable="false" MaxLength="1" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BatchNumber" Type="Edm.String" MaxLength="15" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="BatchNumberPostingMessage" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BatchNumberPostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BestBeforeDate" Type="Edm.DateTime" Precision="0" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="BestBeforeDatePostingMessage" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="BestBeforeDatePostingState" Type="Edm.String" Nullable="false" MaxLength="1" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ColdRoomQuantity" Type="Edm.Decimal" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode" sap:creatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ColdRoomQuantityUnitCode" Type="Edm.String" MaxLength="3" sap:creatable="false" sap:sortable="false" sap:filterable="false"
+					sap:semantics="unit-of-measure"/><Property Name="MoveReasonID" Type="Edm.String" MaxLength="4" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="MoveReasonName" Type="Edm.String" MaxLength="20" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantity" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="ReceiveQuantityUnitCode"
+					sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityBase" Type="Edm.Decimal" Nullable="false" Precision="13" Scale="3" sap:unit="QuantityBaseUnitCode"
+					sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityIsChanged" Type="Edm.Boolean" sap:creatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityPostingMessage" Type="Edm.String" Nullable="false" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ReturnQuantityPostingState" Type="Edm.String" MaxLength="1" sap:creatable="false" sap:sortable="false"
+					sap:filterable="false"/><Property Name="AdditionalItem" Type="Edm.Boolean" sap:creatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="Supplier" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/><PropertyRef Name="SupplierInternalID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="SupplierInternalID" Type="Edm.String" Nullable="false" MaxLength="32" sap:label="ID fournisseur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SupplierDisplayID" Type="Edm.String" Nullable="false" sap:label="Supplier ID to be Displayed" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="SupplierCategory" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Catég. fournisseur" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/><Property Name="SupplierName" Type="Edm.String" Nullable="false" MaxLength="35" sap:label="Nom" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="DocumentsCount" Type="Edm.Int32" Nullable="false" sap:label="Count of Avalaible Receiving Documents" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="ExpectedDeliveryDate" Type="Edm.DateTime" Precision="7" sap:label="DateLivr." sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="DocumentType" Type="Edm.String" MaxLength="1" sap:label="Type doc.commer" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false"/><Property Name="ProcessingState" Type="Edm.String" MaxLength="1" sap:label="Statut de traitement" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false"/></EntityType>
+			<EntityType Name="Settings" sap:content-version="1">
+				<Key><PropertyRef Name="StoreID"/></Key><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Division" sap:creatable="false" sap:updatable="false"
+					sap:sortable="false" sap:filterable="false"/><Property Name="ProposedReceiveQuantity" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="Quantité EM proposée"
+					sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="DisplayQuantityUnit" Type="Edm.String" Nullable="false" MaxLength="1" sap:label="UQ standard" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/><Property Name="GTINScanCounts" Type="Edm.Boolean" Nullable="false" sap:label="Scan. GTIN aug. nbre" sap:creatable="false"
+					sap:updatable="false" sap:sortable="false" sap:filterable="false"/></EntityType>
+			<EntityType Name="MoveReason" sap:content-version="1">
+				<Key><PropertyRef Name="MoveReasonID"/><PropertyRef Name="StoreID"/></Key><Property Name="MoveReasonID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Motif mouvement" sap:creatable="false"
+					sap:updatable="false"/><Property Name="MoveReasonName" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Motif" sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsReturnOrder" Type="Edm.Boolean" Nullable="false" sap:label="Commande de retour" sap:creatable="false"
+					sap:updatable="false"/><Property Name="MovementType" Type="Edm.String" Nullable="false" MaxLength="3" sap:label="Code mouvement" sap:creatable="false"
+					sap:updatable="false"/><Property Name="StorageLocation" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Magasin" sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsNoDisputeSite" Type="Edm.Boolean" Nullable="false" sap:label="Pas de site de lit." sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsSellByDateMandatory" Type="Edm.Boolean" Nullable="false" sap:label="DLV obligatoire" sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsBatchMandatory" Type="Edm.Boolean" Nullable="false" sap:label="Lot obligatoire" sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsPackageMandatory" Type="Edm.Boolean" Nullable="false" sap:label="Colis obligatoire" sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsDestructionMandatory" Type="Edm.Boolean" Nullable="false" sap:label="Destruction oblig." sap:creatable="false"
+					sap:updatable="false"/><Property Name="IsFree" Type="Edm.Boolean" Nullable="false" sap:label="Gratuit" sap:creatable="false" sap:updatable="false"/><Property Name="StoreID" Type="Edm.String" Nullable="false" MaxLength="4" sap:label="Point de vente" sap:creatable="false"
+					sap:updatable="false"/><Property Name="TransactionCode" Type="Edm.String" Nullable="false" MaxLength="20" sap:label="Code transaction" sap:creatable="false"
+					sap:updatable="false"/></EntityType>
+			<Association Name="PostDocument_PostDocumentItem" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocument" Multiplicity="1" Role="FromRole_PostDocument_PostDocumentItem"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocumentItem" Multiplicity="*" Role="ToRole_PostDocument_PostDocumentItem"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_PostDocument_PostDocumentItem"><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/></Principal>
+					<Dependent Role="ToRole_PostDocument_PostDocumentItem"><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Document_DocumentItem" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" Multiplicity="1" Role="FromRole_Document_DocumentItem"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem" Multiplicity="*" Role="ToRole_Document_DocumentItem"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Document_DocumentItem"><PropertyRef Name="DocumentInternalID"/><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Document_DocumentItem"><PropertyRef Name="DocumentInternalID"/><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Document_LowerLevelDocument" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" Multiplicity="1" Role="FromRole_Document_LowerLevelDocument"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" Multiplicity="*" Role="ToRole_Document_LowerLevelDocument"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Document_LowerLevelDocument"><PropertyRef Name="StoreID"/><PropertyRef Name="DocumentInternalID"/></Principal>
+					<Dependent Role="ToRole_Document_LowerLevelDocument"><PropertyRef Name="StoreID"/><PropertyRef Name="HigherLevelHUDocumentInternalID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Document_HighestLevelDocument" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" Multiplicity="*" Role="FromRole_Document_HighestLevelDocument"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" Multiplicity="0..1" Role="ToRole_Document_HighestLevelDocument"/></Association>
+			<Association Name="ProductSupplier_ProductOrderQuantityUnit" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductSupplier" Multiplicity="1" Role="FromRole_ProductSupplier_ProductOrderQuantityUnit"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductOrderQuantityUnit" Multiplicity="*" Role="ToRole_ProductSupplier_ProductOrderQuantityUnit"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_ProductSupplier_ProductOrderQuantityUnit"><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/><PropertyRef Name="SupplierInternalID"/></Principal>
+					<Dependent Role="ToRole_ProductSupplier_ProductOrderQuantityUnit"><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/><PropertyRef Name="SupplierInternalID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Product_DocumentItem" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="1" Role="FromRole_Product_DocumentItem"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem" Multiplicity="*" Role="ToRole_Product_DocumentItem"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Product_DocumentItem"><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/></Principal>
+					<Dependent Role="ToRole_Product_DocumentItem"><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Product_ProductSupplier" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="1" Role="FromRole_Product_ProductSupplier"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductSupplier" Multiplicity="*" Role="ToRole_Product_ProductSupplier"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Product_ProductSupplier"><PropertyRef Name="ProductID"/><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Product_ProductSupplier"><PropertyRef Name="ProductID"/><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Product_ProductQuantityUnit" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="1" Role="FromRole_Product_ProductQuantityUnit"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit" Multiplicity="*" Role="ToRole_Product_ProductQuantityUnit"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Product_ProductQuantityUnit"><PropertyRef Name="ProductID"/><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Product_ProductQuantityUnit"><PropertyRef Name="ProductID"/><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Product_GlobalTradeItemNumber" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="1" Role="FromRole_Product_GlobalTradeItemNumber"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber" Multiplicity="*" Role="ToRole_Product_GlobalTradeItemNumber"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Product_GlobalTradeItemNumber"><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/></Principal>
+					<Dependent Role="ToRole_Product_GlobalTradeItemNumber"><PropertyRef Name="StoreID"/><PropertyRef Name="ProductID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Product_Product" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="1" Role="FromRole_Product_Product"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="1" Role="ToRole_Product_Product"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Product_Product"><PropertyRef Name="ProductID"/><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Product_Product"><PropertyRef Name="ProductID"/><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Filter_FilterValue" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter" Multiplicity="1" Role="FromRole_Filter_FilterValue"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue" Multiplicity="*" Role="ToRole_Filter_FilterValue"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Filter_FilterValue"><PropertyRef Name="FilterID"/><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Filter_FilterValue"><PropertyRef Name="FilterID"/><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_ScanInformation" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_ScanInformation"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.ScanInformation" Multiplicity="*" Role="ToRole_Store_ScanInformation"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_ScanInformation"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_ScanInformation"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_Product" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_Product"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" Multiplicity="*" Role="ToRole_Store_Product"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_Product"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_Product"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_Filter" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_Filter"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter" Multiplicity="*" Role="ToRole_Store_Filter"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_Filter"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_Filter"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_Supplier" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_Supplier"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Supplier" Multiplicity="*" Role="ToRole_Store_Supplier"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_Supplier"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_Supplier"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_Settings" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_Settings"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Settings" Multiplicity="1" Role="ToRole_Store_Settings"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_Settings"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_Settings"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_MoveReason" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_MoveReason"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.MoveReason" Multiplicity="*" Role="ToRole_Store_MoveReason"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_MoveReason"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_MoveReason"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<Association Name="Store_Document" sap:content-version="1"><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" Multiplicity="1" Role="FromRole_Store_Document"/><End Type="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" Multiplicity="*" Role="ToRole_Store_Document"/>
+				<ReferentialConstraint>
+					<Principal Role="FromRole_Store_Document"><PropertyRef Name="StoreID"/></Principal>
+					<Dependent Role="ToRole_Store_Document"><PropertyRef Name="StoreID"/></Dependent>
+				</ReferentialConstraint>
+			</Association>
+			<EntityContainer Name="RETAILSTORE_RECEIVE_PRODUCT_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx"><EntitySet Name="SettingsSet" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.Settings" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/><EntitySet Name="MoveReasons" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.MoveReason" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:searchable="true" sap:pageable="false" sap:content-version="1"/><EntitySet Name="Users" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.User" sap:creatable="false" sap:deletable="false" sap:pageable="false"
+				sap:addressable="false" sap:content-version="1"/><EntitySet Name="Stores" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:searchable="true" sap:content-version="1"/><EntitySet Name="Filters" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/><EntitySet Name="FilterValues" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue" sap:creatable="false" sap:deletable="false"
+				sap:pageable="false" sap:addressable="false" sap:content-version="1"/><EntitySet Name="Products" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:searchable="true" sap:content-version="1"/><EntitySet Name="Documents" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:searchable="true" sap:requires-filter="true" sap:content-version="1"/><EntitySet Name="DocumentItems" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:content-version="1"/><EntitySet Name="ScanInformations" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.ScanInformation" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:searchable="true" sap:content-version="1"/><EntitySet Name="ProductQuantityUnits" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductQuantityUnit" sap:creatable="false"
+				sap:updatable="false" sap:deletable="false" sap:content-version="1"/><EntitySet Name="ProductGlobalTradeItemNumbers" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductGlobalTradeItemNumber"
+				sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"/><EntitySet Name="ProductSuppliers" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductSupplier" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:content-version="1"/><EntitySet Name="ProductOrderQuantityUnits" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductOrderQuantityUnit" sap:creatable="false"
+				sap:updatable="false" sap:deletable="false" sap:content-version="1"/><EntitySet Name="PostDocuments" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocument" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/><EntitySet Name="PostDocumentItems" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocumentItem" sap:creatable="false"
+				sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/><EntitySet Name="Suppliers" EntityType="RETAILSTORE_RECEIVE_PRODUCT_SRV.Supplier" sap:creatable="false" sap:updatable="false"
+				sap:deletable="false" sap:searchable="true" sap:content-version="1"/>
+				<AssociationSet Name="Document_HighestLevelDocument_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document_HighestLevelDocument"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Documents" Role="FromRole_Document_HighestLevelDocument"/><End EntitySet="Documents" Role="ToRole_Document_HighestLevelDocument"/></AssociationSet>
+				<AssociationSet Name="Product_ProductSupplier_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_ProductSupplier"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Products" Role="FromRole_Product_ProductSupplier"/><End EntitySet="ProductSuppliers" Role="ToRole_Product_ProductSupplier"/></AssociationSet>
+				<AssociationSet Name="PostDocument_PostDocumentItem_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocument_PostDocumentItem"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="PostDocuments" Role="FromRole_PostDocument_PostDocumentItem"/><End EntitySet="PostDocumentItems" Role="ToRole_PostDocument_PostDocumentItem"/></AssociationSet>
+				<AssociationSet Name="Store_Settings_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Settings" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_Settings"/><End EntitySet="SettingsSet" Role="ToRole_Store_Settings"/></AssociationSet>
+				<AssociationSet Name="Product_GlobalTradeItemNumber_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_GlobalTradeItemNumber"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Products" Role="FromRole_Product_GlobalTradeItemNumber"/><End EntitySet="ProductGlobalTradeItemNumbers" Role="ToRole_Product_GlobalTradeItemNumber"/></AssociationSet>
+				<AssociationSet Name="Store_Product_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Product" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_Product"/><End EntitySet="Products" Role="ToRole_Store_Product"/></AssociationSet>
+				<AssociationSet Name="Store_ScanInformation_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_ScanInformation"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_ScanInformation"/><End EntitySet="ScanInformations" Role="ToRole_Store_ScanInformation"/></AssociationSet>
+				<AssociationSet Name="Product_ProductQuantityUnit_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_ProductQuantityUnit"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Products" Role="FromRole_Product_ProductQuantityUnit"/><End EntitySet="ProductQuantityUnits" Role="ToRole_Product_ProductQuantityUnit"/></AssociationSet>
+				<AssociationSet Name="Store_MoveReason_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_MoveReason" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_MoveReason"/><End EntitySet="MoveReasons" Role="ToRole_Store_MoveReason"/></AssociationSet>
+				<AssociationSet Name="Store_Document_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Document" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_Document"/><End EntitySet="Documents" Role="ToRole_Store_Document"/></AssociationSet>
+				<AssociationSet Name="Document_LowerLevelDocument_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document_LowerLevelDocument"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Documents" Role="FromRole_Document_LowerLevelDocument"/><End EntitySet="Documents" Role="ToRole_Document_LowerLevelDocument"/></AssociationSet>
+				<AssociationSet Name="ProductSupplier_ProductOrderQuantityUnit"
+					Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.ProductSupplier_ProductOrderQuantityUnit" sap:creatable="false" sap:updatable="false"
+					sap:deletable="false" sap:content-version="1"><End EntitySet="ProductSuppliers" Role="FromRole_ProductSupplier_ProductOrderQuantityUnit"/><End EntitySet="ProductOrderQuantityUnits" Role="ToRole_ProductSupplier_ProductOrderQuantityUnit"/></AssociationSet>
+				<AssociationSet Name="Filter_FilterValue_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter_FilterValue" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Filters" Role="FromRole_Filter_FilterValue"/><End EntitySet="FilterValues" Role="ToRole_Filter_FilterValue"/></AssociationSet>
+				<AssociationSet Name="Product_DocumentItem_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_DocumentItem"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Products" Role="FromRole_Product_DocumentItem"/><End EntitySet="DocumentItems" Role="ToRole_Product_DocumentItem"/></AssociationSet>
+				<AssociationSet Name="Store_Supplier_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Supplier" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_Supplier"/><End EntitySet="Suppliers" Role="ToRole_Store_Supplier"/></AssociationSet>
+				<AssociationSet Name="Product_Product_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Product_Product" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Products" Role="FromRole_Product_Product"/><End EntitySet="Products" Role="ToRole_Product_Product"/></AssociationSet>
+				<AssociationSet Name="Store_Filter_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Store_Filter" sap:creatable="false"
+					sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Stores" Role="FromRole_Store_Filter"/><End EntitySet="Filters" Role="ToRole_Store_Filter"/></AssociationSet>
+				<AssociationSet Name="Document_DocumentItem_AssocSet" Association="RETAILSTORE_RECEIVE_PRODUCT_SRV.Document_DocumentItem"
+					sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1"><End EntitySet="Documents" Role="FromRole_Document_DocumentItem"/><End EntitySet="DocumentItems" Role="ToRole_Document_DocumentItem"/></AssociationSet>
+				<FunctionImport Name="DeleteUserDefaultFilterValues" ReturnType="RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue" EntitySet="FilterValues"
+					m:HttpMethod="POST" sap:action-for="RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"><Parameter Name="StoreID" Type="Edm.String" Mode="In" MaxLength="4"/><Parameter Name="FilterID" Type="Edm.String" Mode="In"/><Parameter Name="FilterValueID" Type="Edm.String" Mode="In"/></FunctionImport>
+				<FunctionImport Name="UpdateUserDefaultFilterValue" ReturnType="RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue" EntitySet="FilterValues"
+					m:HttpMethod="POST" sap:action-for="RETAILSTORE_RECEIVE_PRODUCT_SRV.FilterValue"><Parameter Name="FilterID" Type="Edm.String" Mode="In"/><Parameter Name="FilterValueID" Type="Edm.String" Mode="In"/><Parameter Name="StoreID" Type="Edm.String" Mode="In" MaxLength="4"/></FunctionImport>
+				<FunctionImport Name="CheckPostDocumentItem" ReturnType="RETAILSTORE_RECEIVE_PRODUCT_SRV.DocumentItem" EntitySet="DocumentItems"
+					m:HttpMethod="POST" sap:action-for="RETAILSTORE_RECEIVE_PRODUCT_SRV.PostDocumentItem"><Parameter Name="StoreID" Type="Edm.String" Mode="In" MaxLength="4"/><Parameter Name="DocumentInternalID" Type="Edm.String" Mode="In" MaxLength="32"/><Parameter Name="DocumentItemInternalID" Type="Edm.Int32" Mode="In"/></FunctionImport>
+			</EntityContainer><atom:link rel="self" href="http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/><atom:link rel="latest-version" href="http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/$metadata"
+				xmlns:atom="http://www.w3.org/2005/Atom"/></Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

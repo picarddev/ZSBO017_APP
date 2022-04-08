@@ -1,0 +1,19 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form"
+	xmlns:customControls="retail.store.receiveproduct.customControls" xmlns="sap.m">
+	
+	<!--
+				CODE ARTICLE | PCB
+	-->
+	
+	<ObjectAttribute text="{ parts: [{ path : 'Product>/ProductID'},
+				   	       { path : 'DocumentItem>/DeliveryQuantityUnitCode' }, 
+						   { path : 'DocumentItem>/DeliveryQuantityUnitNumerator' },
+						   { path : 'Product>/IsOnPromotion' },
+						   { path : 'Product>/SalesStatusName' }],
+				formatter: 'retail.store.receiveproduct.utils.Formatter.formatProductIDWithQuantityUnitCode' }">
+		<!--<customData>-->
+		<!--	<core:CustomData key="Product" value="IsOnPromotion-{Product>/IsOnPromotion}" writeToDom="true"/>-->
+		<!--</customData>-->
+	</ObjectAttribute>
+	
+</core:FragmentDefinition>

@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:customControls="retail.store.receiveproduct.customControls"
+	xmlns="sap.m">
+	<!-- 
+			RDG165A : Indication de la progression du traitement d’un roll par une barre de progression.
+			TotalItemsCount exprimé en colis est modifié par la propriété spécifique TotalSalesUnitCount
+	-->
+	<ProgressIndicator xmlns="sap.m" id="receiveProductsProgressIndicator" height="1rem"
+		visible="{ parts: [{path: 'appMode&gt;/detailedReceivingActive'}, {path: 'Document&gt;/ProcessingState'}], formatter: 'retail.store.receiveproduct.utils.Formatter.formatProgIndVisible' }"
+		percentValue="{ parts: [{path: 'Document&gt;/CheckedItemsCount'}, {path: 'Document&gt;/TotalSalesUnitCount'}], formatter: 'retail.store.receiveproduct.utils.Formatter.formatProgIndPercentValue' }"
+		displayValue="{ parts: [{path: 'Document&gt;/CheckedItemsCount'}, {path: 'Document&gt;/TotalSalesUnitCount'}], formatter: 'retail.store.receiveproduct.utils.Formatter.formatProgIndDisplayValue' }"/>
+</core:FragmentDefinition>

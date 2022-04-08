@@ -1,0 +1,131 @@
+{
+  "d" : {
+    "results" : [
+      {
+        "__metadata" : {
+          "id" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ExpectedDeliveryDate')",
+          "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ExpectedDeliveryDate')",
+          "type" : "RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter"
+        },
+        "StoreID" : "0056",
+        "FilterID" : "ExpectedDeliveryDate",
+        "FilterName" : "Date/Heure de livraison prévue",
+        "FilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ExpectedDeliveryDate')/FilterValues"
+          }
+        },
+        "UserDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ExpectedDeliveryDate')/UserDefaultFilterValues"
+          }
+        },
+        "SystemDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ExpectedDeliveryDate')/SystemDefaultFilterValues"
+          }
+        }
+      },
+      {
+        "__metadata" : {
+          "id" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='DocumentType')",
+          "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='DocumentType')",
+          "type" : "RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter"
+        },
+        "StoreID" : "0056",
+        "FilterID" : "DocumentType",
+        "FilterName" : "Type de document",
+        "FilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='DocumentType')/FilterValues"
+          }
+        },
+        "UserDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='DocumentType')/UserDefaultFilterValues"
+          }
+        },
+        "SystemDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='DocumentType')/SystemDefaultFilterValues"
+          }
+        }
+      },
+      {
+        "__metadata" : {
+          "id" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ProcessingState')",
+          "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ProcessingState')",
+          "type" : "RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter"
+        },
+        "StoreID" : "0056",
+        "FilterID" : "ProcessingState",
+        "FilterName" : "Statut de traitement",
+        "FilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ProcessingState')/FilterValues"
+          }
+        },
+        "UserDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ProcessingState')/UserDefaultFilterValues"
+          }
+        },
+        "SystemDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='ProcessingState')/SystemDefaultFilterValues"
+          }
+        }
+      },
+      {
+        "__metadata" : {
+          "id" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierCategory')",
+          "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierCategory')",
+          "type" : "RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter"
+        },
+        "StoreID" : "0056",
+        "FilterID" : "SupplierCategory",
+        "FilterName" : "Type de fournisseur",
+        "FilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierCategory')/FilterValues"
+          }
+        },
+        "UserDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierCategory')/UserDefaultFilterValues"
+          }
+        },
+        "SystemDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierCategory')/SystemDefaultFilterValues"
+          }
+        }
+      },
+      {
+        "__metadata" : {
+          "id" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierInternalID')",
+          "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierInternalID')",
+          "type" : "RETAILSTORE_RECEIVE_PRODUCT_SRV.Filter"
+        },
+        "StoreID" : "0056",
+        "FilterID" : "SupplierInternalID",
+        "FilterName" : "Fournisseur",
+        "FilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierInternalID')/FilterValues"
+          }
+        },
+        "UserDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierInternalID')/UserDefaultFilterValues"
+          }
+        },
+        "SystemDefaultFilterValues" : {
+          "__deferred" : {
+            "uri" : "http://vdevsap103:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Filters(StoreID='0056',FilterID='SupplierInternalID')/SystemDefaultFilterValues"
+          }
+        }
+      }
+    ]
+  }
+}

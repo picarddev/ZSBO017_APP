@@ -1,0 +1,72 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:customControls="retail.store.receiveproduct.customControls"
+	xmlns="sap.m">
+	
+	<!-- 
+			NOUVELLE ZONE "VERS STOCK RESERVE" (Large layout)
+	-->
+	
+	<HBox alignItems="Center" justifyContent="Center" visible="{layoutStatus>/IsLargeLayout}">
+		<Input id="receiveProductsInputStockRoomQuantityLargeLayout" 
+			type="Number" width="3.5rem" textAlign="Right"
+			valueState="{ parts: [{path: 'ReceiveQuantityIsChanged'},
+		                          {path: 'ReceivingIsFinished'},
+		                          {path: 'ReceiveQuantityPostingState'}],
+		                  formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputValueState' }"
+		    valueStateText="{ReceiveQuantityPostingMessage}"
+			enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'},
+			                   {path: 'Document>/ProcessingState'},
+		                       {path: 'ReceivingIsFinished'},
+		                       {path: 'ReceiveQuantityPostingState'},
+		                       {path: 'IsBlockedForReceiving'},
+		                       {path: 'mode>/tableMode'}],
+		               formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled' }"
+			value="{ path: 'StockRoomQuantity',
+                        formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveQuantityForInput' }"
+		    change="onStockRoomQuantityChange" liveChange="onStockRoomQuantityLiveChange" />
+		
+		<Text id="receiveProductsTextStockRoomUnitLargeLayout" 
+			wrapping="false" class="sapUiTinyMarginBegin"
+			text="{ parts: [{path: 'StockRoomQuantity'}], 
+				formatter:'retail.store.receiveproduct.utils.Formatter.formatStockRoomTextQuantityUnit' }" />
+	</HBox>
+	
+	<!-- 
+			NOUVELLE ZONE "VERS STOCK RESERVE" (small layout)
+	-->
+	
+	<HBox alignItems="Center" justifyContent="End" class="sapUiSizeCompact" visible="{layoutStatus>/IsSmallLayout}">
+		<HBox width="3.5rem">
+			<ObjectStatus id="receiveProductsObjectStatusStockRoomQuantity" icon="sap-icon://product" class="receiveProductsObjectStatusStockRoomQuantity"
+				state="{ parts: [{path: 'StockRoomQuantity'}], formatter:'retail.store.receiveproduct.utils.Formatter.formatStockRoomQuantityValueState' }"
+				text="{ parts: [{path: 'StockRoomQuantity'}], formatter:'retail.store.receiveproduct.utils.Formatter.formatStockRoomQuantityWithUnit' }" />
+		</HBox>
+		<VBox class="sapUiSmallMarginBegin sapUiTinyMarginEnd">
+			<Button text="+1" width="3.2rem" type="Emphasized" class="sapUiTinyMarginBottom" press="onAddOneBoxButtonPress" 
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'},
+			                   {path: 'Document>/ProcessingState'},
+		                       {path: 'ReceivingIsFinished'},
+		                       {path: 'ReceiveQuantityPostingState'},
+		                       {path: 'IsBlockedForReceiving'},
+		                       {path: 'mode>/tableMode'}],
+						   formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled'}"/>
+			<Button text="+0.5" width="3.2rem" type="Emphasized" press="onAddHalfBoxButtonPress" 
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'},
+			                   {path: 'Document>/ProcessingState'},
+		                       {path: 'ReceivingIsFinished'},
+		                       {path: 'ReceiveQuantityPostingState'},
+		                       {path: 'IsBlockedForReceiving'},
+		                       {path: 'mode>/tableMode'}],
+						   formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled'}"/>
+		</VBox>
+		<VBox>
+			<Button id="orderProductsButtonDelete" width="2rem" type="Transparent" icon="sap-icon://delete" press="onDeleteButtonPress" 
+				enabled="{ parts: [{path: 'appMode>/detailedReceivingActive'},
+			                   {path: 'Document>/ProcessingState'},
+		                       {path: 'ReceivingIsFinished'},
+		                       {path: 'ReceiveQuantityPostingState'},
+		                       {path: 'IsBlockedForReceiving'},
+		                       {path: 'mode>/tableMode'}],
+						   formatter: 'retail.store.receiveproduct.utils.Formatter.formatReceiveInputEnabled'}"/>
+		</VBox>
+	</HBox>
+</core:FragmentDefinition>

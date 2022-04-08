@@ -1,0 +1,2606 @@
+{
+	"d": {
+		"__count": "50",
+		"results": [{
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0056",
+			"StoreName": "MONTIGNY",
+			"City": "MONTIGNY LE BRETONNEUX",
+			"Street": "AV ERIC SATIE",
+			"PostalCode": "78180",
+			"FormattedAddress": "CENTRE COMMERCIAL LA MARE / AV ERIC SATIE / 78180 MONTIGNY LE BRETONNEUX / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0056')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0001",
+			"StoreName": "AULNAY",
+			"City": "AULNAY SOUS BOIS",
+			"Street": "20 RUE GERMAIN PLANQUE",
+			"PostalCode": "93600",
+			"FormattedAddress": "ZI LA FOSSE A LA BARBIERE / 20 RUE GERMAIN PLANQUE / 93600 AULNAY SOUS BOIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0001')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0002",
+			"StoreName": "PHILIPPE-AUGUSTE test",
+			"City": "PARIS",
+			"Street": "63 AV PHILIPPE AUGUSTE",
+			"PostalCode": "75011",
+			"FormattedAddress": "63 AV PHILIPPE AUGUSTE / 75011 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0002')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0003",
+			"StoreName": "BARENTIN",
+			"City": "BARENTIN",
+			"Street": "CENTRE COMMERCIAL BARENTIN",
+			"PostalCode": "76360",
+			"FormattedAddress": "CENTRE COMMERCIAL BARENTIN / 76360 BARENTIN / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0003')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0004",
+			"StoreName": "BOIS COLOMBES",
+			"City": "BOIS COLOMBES",
+			"Street": "11 AV DU GENERAL LECLERC",
+			"PostalCode": "92270",
+			"FormattedAddress": "11 AV DU GENERAL LECLERC / 92270 BOIS COLOMBES / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0004')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0005",
+			"StoreName": "CASTAGNARY",
+			"City": "PARIS",
+			"Street": "16 RUE CASTAGNARY",
+			"PostalCode": "75015",
+			"FormattedAddress": "16 RUE CASTAGNARY / 75015 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0005')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0006",
+			"StoreName": "CERGY",
+			"City": "ST OUEN L'AUMONE",
+			"Street": "1 RUE D'EPLUCHES",
+			"PostalCode": "95310",
+			"FormattedAddress": "1 RUE D'EPLUCHES / 95310 ST OUEN L'AUMONE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0006')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0007",
+			"StoreName": "FRANCONVILLE",
+			"City": "FRANCONVILLE",
+			"Street": "RUE DE L'ERMITAGE",
+			"PostalCode": "95130",
+			"FormattedAddress": "RUE DE L'ERMITAGE / 95130 FRANCONVILLE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0007')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0008",
+			"StoreName": "OSNY",
+			"City": "OSNY",
+			"Street": "9 CHAUSSEE JULES CESAR",
+			"PostalCode": "95520",
+			"FormattedAddress": "Z.I. DES BEAUX SOLEILS / 9 CHAUSSEE JULES CESAR / 95520 OSNY / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0008')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0009",
+			"StoreName": "PARLY II",
+			"City": "LE CHESNAY PARLY II",
+			"Street": "9 AV DUTARTRE",
+			"PostalCode": "78150",
+			"FormattedAddress": "9 AV DUTARTRE / 78150 LE CHESNAY PARLY II / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0009')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0010",
+			"StoreName": "PAVILLONS",
+			"City": "PAVILLONS SOUS BOIS",
+			"Street": "23 AV DE CHANZY",
+			"PostalCode": "93320",
+			"FormattedAddress": "23 AV DE CHANZY / 93320 PAVILLONS SOUS BOIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0010')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0011",
+			"StoreName": "SERURIER",
+			"City": "PARIS",
+			"Street": "55 BD SERURIER",
+			"PostalCode": "75019",
+			"FormattedAddress": "55 BD SERURIER / 75019 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0011')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0012",
+			"StoreName": "DREUX",
+			"City": "DREUX",
+			"Street": "16 CC PORTE NORD - RUE HENRY P",
+			"PostalCode": "28100",
+			"FormattedAddress": "16 CC PORTE NORD - RUE HENRY POTEZ / 28100 DREUX / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0012')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0013",
+			"StoreName": "FRANCS-BOURGEOIS",
+			"City": "PARIS",
+			"Street": "48 RUE FRANCS BOURGEOIS",
+			"PostalCode": "75003",
+			"FormattedAddress": "48 RUE FRANCS BOURGEOIS / 75003 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0013')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0014",
+			"StoreName": "VAUCRESSON",
+			"City": "VAUCRESSON",
+			"Street": "91 BD DE LA REPUBLIQUE",
+			"PostalCode": "92420",
+			"FormattedAddress": "91 BD DE LA REPUBLIQUE / 92420 VAUCRESSON / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0014')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0015",
+			"StoreName": "BOULAINVILLIERS",
+			"City": "PARIS",
+			"Street": "42 RUE DE BOULAINVILLIERS",
+			"PostalCode": "75016",
+			"FormattedAddress": "42 RUE DE BOULAINVILLIERS / 75016 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0015')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0016",
+			"StoreName": "PORT MARLY",
+			"City": "PORT MARLY",
+			"Street": "3 RUE DE PARIS",
+			"PostalCode": "78560",
+			"FormattedAddress": "3 RUE DE PARIS / 78560 PORT MARLY / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0016')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0017",
+			"StoreName": "BOULOGNE",
+			"City": "BOULOGNE BILLANCOURT",
+			"Street": "101/103 BD JEAN JAURES",
+			"PostalCode": "92100",
+			"FormattedAddress": "101/103 BD JEAN JAURES / 92100 BOULOGNE BILLANCOURT / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0017')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0018",
+			"StoreName": "MICHEL-ANGE",
+			"City": "PARIS",
+			"Street": "114 BIS RUE MICHEL ANGE",
+			"PostalCode": "75016",
+			"FormattedAddress": "114 BIS RUE MICHEL ANGE / 75016 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0018')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0019",
+			"StoreName": "LA CHAPELLE",
+			"City": "PARIS",
+			"Street": "27 RUE DE LA CHAPELLE",
+			"PostalCode": "75018",
+			"FormattedAddress": "27 RUE DE LA CHAPELLE / 75018 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0019')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0020",
+			"StoreName": "AMILLY",
+			"City": "AMILLY",
+			"Street": "675 AVENUE D'ANTIBES",
+			"PostalCode": "45200",
+			"FormattedAddress": "675 AVENUE D'ANTIBES / 45200 AMILLY / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0020')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0021",
+			"StoreName": "AUXERRE",
+			"City": "AUXERRE",
+			"Street": "RUE DES FOURNEAUX",
+			"PostalCode": "89000",
+			"FormattedAddress": "ZONE CIAL LES CLAIRIONS / RUE DES FOURNEAUX / 89000 AUXERRE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0021')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0022",
+			"StoreName": "BONNEUIL",
+			"City": "BONNEUIL SUR MARNE",
+			"Street": "ZAC DE LA FOSSE AUX MOINES",
+			"PostalCode": "94864",
+			"FormattedAddress": "10-12 RUE DE LA CONVENTION / ZAC DE LA FOSSE AUX MOINES / 94864 BONNEUIL SUR MARNE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0022')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0023",
+			"StoreName": "BOURG LA REINE",
+			"City": "BOURG LA REINE",
+			"Street": "63 AV DU MARECHAL JOFFRE",
+			"PostalCode": "92340",
+			"FormattedAddress": "RN 20 (DIRECTION ANTONY) / 63 AV DU MARECHAL JOFFRE / 92340 BOURG LA REINE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0023')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0026",
+			"StoreName": "FONTAINEBLEAU",
+			"City": "FONTAINEBLEAU",
+			"Street": "32 BD MAGINOT",
+			"PostalCode": "77300",
+			"FormattedAddress": "32 BD MAGINOT / 77300 FONTAINEBLEAU / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0026')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0029",
+			"StoreName": "MEAUX",
+			"City": "MEAUX",
+			"Street": "7 RUE ARISTIDE BRIAND",
+			"PostalCode": "77100",
+			"FormattedAddress": "7 RUE ARISTIDE BRIAND / 77100 MEAUX / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0029')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0030",
+			"StoreName": "MELUN",
+			"City": "MELUN",
+			"Street": "7 RUE EUGENE BRIAIS",
+			"PostalCode": "77000",
+			"FormattedAddress": "7 RUE EUGENE BRIAIS / 77000 MELUN / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0030')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0031",
+			"StoreName": "MONTLHERY",
+			"City": "MONTLHERY",
+			"Street": "125 RTE D'ORLEANS",
+			"PostalCode": "91310",
+			"FormattedAddress": "125 RTE D'ORLEANS / 91310 MONTLHERY / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0031')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0032",
+			"StoreName": "NEMOURS",
+			"City": "NEMOURS",
+			"Street": "RUE DES PALIS",
+			"PostalCode": "77140",
+			"FormattedAddress": "(ZONE INDUSTRIELLE) / RUE DES PALIS / 77140 NEMOURS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0032')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0033",
+			"StoreName": "ROME",
+			"City": "PARIS",
+			"Street": "159 RUE DE ROME",
+			"PostalCode": "75017",
+			"FormattedAddress": "159 RUE DE ROME / 75017 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0033')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0034",
+			"StoreName": "SARAN",
+			"City": "SARAN",
+			"Street": "1904 RN 20",
+			"PostalCode": "45770",
+			"FormattedAddress": "1904 RN 20 / 45770 SARAN / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0034')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0035",
+			"StoreName": "TORCY",
+			"City": "TORCY",
+			"Street": "RUE DU QUINCONCE",
+			"PostalCode": "77200",
+			"FormattedAddress": "ANGLE RUE LOUIS ARAGON / RUE DU QUINCONCE / 77200 TORCY / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0035')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0036",
+			"StoreName": "ATHIS MONS",
+			"City": "ATHIS-MONS",
+			"Street": "71 AVENUE FRANCOIS MITTERRAND",
+			"PostalCode": "91200",
+			"FormattedAddress": "71 AVENUE FRANCOIS MITTERRAND / 91200 ATHIS-MONS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0036')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0037",
+			"StoreName": "ORSAY",
+			"City": "LES ULIS",
+			"Street": "ROND POINT MONDETOUR",
+			"PostalCode": "91940",
+			"FormattedAddress": "R.N.446 / ROND POINT MONDETOUR / 91940 LES ULIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0037')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0038",
+			"StoreName": "ENTREPRENEURS",
+			"City": "PARIS",
+			"Street": "38BIS  RUE ENTREPRENEURS",
+			"PostalCode": "75015",
+			"FormattedAddress": "38BIS  RUE ENTREPRENEURS / 75015 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0038')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0040",
+			"StoreName": "ASNIERES",
+			"City": "ASNIERES",
+			"Street": "20 GRANDE RUE CH DE GAULLE",
+			"PostalCode": "92600",
+			"FormattedAddress": "20 GRANDE RUE CH DE GAULLE / 92600 ASNIERES / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0040')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0041",
+			"StoreName": "VILLIERS",
+			"City": "PARIS",
+			"Street": "103 AVENUE DE VILLIERS",
+			"PostalCode": "75017",
+			"FormattedAddress": "103 AVENUE DE VILLIERS / 75017 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0041')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0042",
+			"StoreName": "MONTEREAU",
+			"City": "VARENNES SUR SEINE",
+			"Street": "ESPACE LE BREAU",
+			"PostalCode": "77130",
+			"FormattedAddress": "CENTRE COMMERCIAL / ESPACE LE BREAU / 77130 VARENNES SUR SEINE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0042')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0043",
+			"StoreName": "BREZIN",
+			"City": "PARIS",
+			"Street": "3 RUE BREZIN",
+			"PostalCode": "75014",
+			"FormattedAddress": "3 RUE BREZIN / 75014 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0043')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0044",
+			"StoreName": "NOISY LE GRAND",
+			"City": "NOISY LE GRAND",
+			"Street": "55 AVENUE MEDERIC",
+			"PostalCode": "93160",
+			"FormattedAddress": "PRES DE CHAMPION / 55 AVENUE MEDERIC / 93160 NOISY LE GRAND / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0044')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0045",
+			"StoreName": "THIAIS",
+			"City": "THIAIS",
+			"Street": "6 RUE DES ALOUETTES",
+			"PostalCode": "94320",
+			"FormattedAddress": "ZONE SENIA / 6 RUE DES ALOUETTES / 94320 THIAIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0045')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0046",
+			"StoreName": "CHATILLON",
+			"City": "CHATILLON",
+			"Street": "62 AVENUE DE PARIS",
+			"PostalCode": "92320",
+			"FormattedAddress": "62 AVENUE DE PARIS / 92320 CHATILLON / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0046')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0047",
+			"StoreName": "LOGNES",
+			"City": "LOGNES",
+			"Street": "21 RUE WOLFGANG AMADEUS MOZART",
+			"PostalCode": "77185",
+			"FormattedAddress": "21 RUE WOLFGANG AMADEUS MOZART / 77185 LOGNES / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0047')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0048",
+			"StoreName": "COMPIEGNE",
+			"City": "COMPIEGNE",
+			"Street": "ZA DES MERCIERES",
+			"PostalCode": "60200",
+			"FormattedAddress": "ROCADE SUD / ZA DES MERCIERES / 60200 COMPIEGNE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0048')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0049",
+			"StoreName": "ROSNY",
+			"City": "ROSNY SOUS BOIS",
+			"Street": "87 BD D'ALSACE-LORRAINE",
+			"PostalCode": "93110",
+			"FormattedAddress": "87 BD D'ALSACE-LORRAINE / 93110 ROSNY SOUS BOIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0049')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0051",
+			"StoreName": "EPINAY",
+			"City": "EPINAY SUR SEINE",
+			"Street": "73 AV DU MARECHAL JOFFRE",
+			"PostalCode": "93800",
+			"FormattedAddress": "LE CYGNE D'ENGHIEN / 73 AV DU MARECHAL JOFFRE / 93800 EPINAY SUR SEINE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0051')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0053",
+			"StoreName": "GONESSE",
+			"City": "GONESSE",
+			"Street": "3-5 AV RAYMOND RAMBERT",
+			"PostalCode": "95500",
+			"FormattedAddress": "3-5 AV RAYMOND RAMBERT / 95500 GONESSE / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0053')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0054",
+			"StoreName": "SENS",
+			"City": "SENS",
+			"Street": "BOULEVARD DU PONT NEUF",
+			"PostalCode": "89100",
+			"FormattedAddress": "BOULEVARD DU PONT NEUF / 89100 SENS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0054')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0055",
+			"StoreName": "AUTEUIL",
+			"City": "PARIS",
+			"Street": "63 RUE D'AUTEUIL",
+			"PostalCode": "75016",
+			"FormattedAddress": "63 RUE D'AUTEUIL / 75016 PARIS / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0055')/MoveReasons"
+				}
+			}
+		}, {
+			"__metadata": {
+				"id": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')",
+				"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')",
+				"type": "RETAILSTORE_RECEIVE_PRODUCT_SRV.Store"
+			},
+			"StoreID": "0057",
+			"StoreName": "ISSY LES MOULINEAUX",
+			"City": "ISSY LES MOULINEAUX",
+			"Street": "45 RUE DU GENERAL LECLERC",
+			"PostalCode": "92130",
+			"FormattedAddress": "45 RUE DU GENERAL LECLERC / 92130 ISSY LES MOULINEAUX / France",
+			"Filters": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/Filters"
+				}
+			},
+			"Products": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/Products"
+				}
+			},
+			"Documents": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/Documents"
+				}
+			},
+			"DocumentsByScan": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/DocumentsByScan"
+				}
+			},
+			"DocumentsAfterPost": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/DocumentsAfterPost"
+				}
+			},
+			"Suppliers": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/Suppliers"
+				}
+			},
+			"SettingsSet": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/SettingsSet"
+				}
+			},
+			"MoveReasons": {
+				"__deferred": {
+					"uri": "http://vdevsap103.issy.picard.priv:8000/sap/opu/odata/sap/ZSBO017B_RECEIVE_PRODUCT_SRV/Stores('0057')/MoveReasons"
+				}
+			}
+		}]
+	}
+}
