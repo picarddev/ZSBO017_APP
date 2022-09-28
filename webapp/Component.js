@@ -14,7 +14,7 @@ sap.ui.component.load({
 });
 this.retail.store.receiveproduct.Component.extend("retail.store.receiveproduct.Z_SBO017B_RECV_PROD.Component", {
 	metadata: {
-		version: "1.6",
+		version: "1.7",
 		includes: ["css/CommonCustom.css", "/sap/bc/ui5_ui5/sap/Z_SBO025_TAG_IT/css/style.css"],
 		config: {
 			"sap.ca.i18Nconfigs": {

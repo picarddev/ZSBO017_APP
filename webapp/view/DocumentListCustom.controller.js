@@ -22,16 +22,16 @@ sap.ui.controller("retail.store.receiveproduct.Z_SBO017B_RECV_PROD.view.Document
 		if (sap && sap.Toolbar) {
 			sap.Toolbar.setEnabled(false); // TFS 2784 : Désactivation de la Toolbar du SAP Fiori Client
 		}
-		
+
 		//			
 		// TFS 5050 : Migration vers la nouvelle gateway Fiori
 		//			  Depuis la v1.30 le le SAP Fiori Launchpad applique automatiquement la classe sapUiSizeCompact
 		//		      sur le tag <body> de la page. On supprime cette classe pour conserver un agencement correct
 		//		      des contrôles graphiques UI5.
-		
+
 		if (jQuery(document.body).hasClass("sapUiSizeCompact")) {
-			jQuery.sap.delayedCall(500, this, function() {
-				jQuery(document.body).removeClass("sapUiSizeCompact");	
+			jQuery.sap.delayedCall(500, this, function () {
+				jQuery(document.body).removeClass("sapUiSizeCompact");
 			});
 		}
 	},
@@ -247,7 +247,7 @@ sap.ui.controller("retail.store.receiveproduct.Z_SBO017B_RECV_PROD.view.Document
 
 		/*
 			TFS 4990 : Masquer le bouton enregistrer lors de l'activation sélection multiple côté master
-		*/ 
+		*/
 		var oResetButton = oFooter.getContent()[1];
 		var oSubmitButton = oFooter.getContent()[2];
 		if (sTableMode === sap.m.ListMode.MultiSelect || sMode === "Selection") {
@@ -360,13 +360,24 @@ sap.ui.controller("retail.store.receiveproduct.Z_SBO017B_RECV_PROD.view.Document
 	// 	}
 	// },
 
+	//SPRINT 34 - Bug 8493: [Traitement de Rolls] - [TFR] Fonctionalité sélection PDV - MPO - 28/09/2022
+	createAssignStoreButton: function () {
+		var b = new sap.m.Button({
+			text: sap.retail.store.lib.reuse.util.TextUtil.getReuseText("ASSIGN_STORE_BUTTON"),
+			press: jQuery.proxy(function () {
+				this.openStoreSelection();
+			}, this)
+		});
+		this.getView().addDependent(b);
+		sap.ushell.services.AppConfiguration.addApplicationSettingsButtons([b]);
+		b.setVisible(false);
+	},
 	/**
 	 * TFS 2784 : Afficher/Cacher la liste des motifs. 
 	 * 
 	 * @param {} 
 	 * @returns {void} 
 	 */
-
 	onMoveReasonButtonPress: function (oEvent) {
 		if (this.getList().getSelectedItems().length > 0) {
 			// On ouvre la liste des motifs de refus 
