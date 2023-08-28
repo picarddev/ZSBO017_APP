@@ -508,6 +508,51 @@ sap.ui.controller("retail.store.receiveproduct.Z_SBO017B_RECV_PROD.view.Document
 
 			retail.store.receiveproduct.utils.DataManager.updateMoveReasonForDocuments(this._oStore.StoreID, aDocumentIDs, sMoveReasonKey,
 				sMoveReasonName);
+
+			//IBL+ User Story 7346: [TRAITEMENT] Modification et création des motifs
+			var Otext;
+			switch (sMoveReasonKey) {
+				//A intégrer         = 0001
+			case '0001':
+				break;
+				//DESTOCKAGE AUTORISE=0051
+			case '0051':
+
+				Otext = sap.retail.store.lib.reuse.util.TextUtil.getText("DESTOCKAGE_AUTORISE");
+
+				break;
+				//ROLL NON STOCKABLE=0052
+			case '0052':
+
+				Otext = sap.retail.store.lib.reuse.util.TextUtil.getText("ROLL_NONSTOCKABLE");
+				break;
+				//LIVRE DETERIORE==0061
+			case '0061':
+
+				Otext = sap.retail.store.lib.reuse.util.TextUtil.getText("LIVRE_DETERIORE");
+				break;
+				//REFUS TEMPERATURE=0063 
+			case '0063':
+
+				Otext = sap.retail.store.lib.reuse.util.TextUtil.getText("REFUS_TEMPERATURE");
+				break;
+				//LITIGE / NON LIVRE =0098
+			case '0098':
+
+				Otext = sap.retail.store.lib.reuse.util.TextUtil.getText("NON_LIVRE");
+				break;
+			case '0088':
+
+				Otext = sap.retail.store.lib.reuse.util.TextUtil.getText("PANNE_CF");
+				break;
+
+			}
+
+			retail.store.receiveproduct.utils.MessageUtil.showMessageBox({
+				type: sap.ca.ui.message.Type.WARNING,
+				message: Otext
+			});
+
 		}
 	},
 
